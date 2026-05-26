@@ -1,0 +1,107 @@
+---
+title: "Research"
+---
+
+<div class="page-header">
+<div class="kicker">Research</div>
+
+# Scalable robotic cooperation for large-scale tasks
+
+<p class="lead">My research focuses on adaptable robotic systems that can scale with the task: from individual mobile manipulators to cooperative teams that jointly transport, handle, and assemble large-scale components.</p>
+</div>
+
+## Core questions
+
+- How can multiple mobile robots cooperate on a shared object without relying on highly specialized hardware?
+- How can cooperative robot systems scale from small to large configurations while remaining easy to program?
+- How can mobile manipulators handle large-scale components despite localization errors, communication latency, and kinematic overdetermination?
+- How can robotic automation become more adaptable for changing products, component sizes, and production environments?
+
+## Research themes
+
+::: {.card-grid two}
+::: {.card}
+### Cooperative mobile multi-robot systems
+
+I investigate cooperative mobile multi-robot systems in which several robots work on the same physical object. This creates strong spatial and temporal dependencies between the robots and introduces challenges such as synchronization, localization accuracy, communication latency, and kinematic overdetermination.
+:::
+
+::: {.card}
+### Scalable control and path planning
+
+A central goal of my work is to make cooperative robot systems scalable: adding or removing robots should not require redesigning the entire system. My research combines formation path planning, decentralized control, and hardware-independent system architectures.
+:::
+
+::: {.card}
+### Mobile manipulation for industrial automation
+
+I work on mobile manipulators for large-scale object transport, handling, and assembly. These systems are particularly relevant when components are too large, too heavy, or too variable for conventional single-robot solutions.
+:::
+
+::: {.card}
+### Construction automation and mobile additive manufacturing
+
+Beyond industrial handling and assembly, I work on mobile robotic systems for construction automation, including mobile additive manufacturing and print-while-drive processes.
+:::
+:::
+
+## Approach
+
+::: {.split}
+::: {.info-card}
+### System perspective
+
+I am interested in the complete robotic system: mobile platforms, manipulators, tools, sensors, controllers, path planners, communication, and experimental validation. The goal is not only to design algorithms, but to make them work on real robotic hardware.
+:::
+
+::: {.info-card}
+### Experimental validation
+
+My work emphasizes physical experiments with mobile robots and mobile manipulators. This includes cooperative object transport, cooperative object handling, and mobile additive manufacturing in laboratory and production-like environments.
+:::
+:::
+
+## Methods and topics
+
+<ul class="tag-list">
+<li>Mobile manipulation</li>
+<li>Cooperative object transport</li>
+<li>Cooperative object handling</li>
+<li>Multi-robot control</li>
+<li>Formation control</li>
+<li>Path planning</li>
+<li>Trajectory planning</li>
+<li>Whole-body control</li>
+<li>Admittance control</li>
+<li>Robot learning</li>
+<li>Hardware and system integration</li>
+<li>Automation for construction</li>
+</ul>
+
+## Representative outputs
+
+::: {.card-grid}
+::: {.card}
+### Dissertation
+
+A scalable cooperative mobile multi-robot framework for handling and assembly of large-scale components.
+
+<div class="link-list"><a href="dissertation.html">Read summary →</a></div>
+:::
+
+::: {.card}
+### Projects
+
+Demonstrators for cooperative object transport, object handling with mobile manipulators, and print-while-drive additive manufacturing.
+
+<div class="link-list"><a href="projects.html">View projects →</a></div>
+:::
+
+::: {.card}
+### Publications
+
+Selected publications on cooperative mobile multi-robot systems, mobile manipulation, formation path planning, and construction automation.
+
+<div class="link-list"><a href="publications.html">View publications →</a></div>
+:::
+:::

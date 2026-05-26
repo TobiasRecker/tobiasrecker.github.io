@@ -1,0 +1,86 @@
+---
+title: "Dissertation"
+---
+
+<div class="page-header">
+<div class="kicker">Dissertation</div>
+
+# Scaling of Cooperative Mobile Multi-Robot Systems for Handling and Assembly of Large-Scale Components
+
+<p class="lead">A scalable CMMRS framework for collaborative object handling and assembly tasks in industrial settings.</p>
+</div>
+
+::: {.feature}
+**Status:** submitted and defended · **Degree:** Dr.-Ing. · **Year:** 2025 · **ISBN:** 978-3-69030-108-4
+
+<div class="button-row">
+<a class="button primary" href="assets/pdfs/recker-dissertation-2025.pdf">Download dissertation PDF</a>
+<a class="button" href="https://www.kulturkaufhaus.de/en/detail/ISBN-9783690301084/Recker-Tobias/Scaling-of-Cooperative-Mobile-Multi-Robot-Systems-for-Handling-and-Assembly-of-Large-Scale-Components">Book version</a>
+</div>
+:::
+
+## Summary
+
+My dissertation investigates the design, development, and implementation of a scalable Cooperative Mobile Multi-Robot System (CMMRS) framework for collaborative object handling and assembly tasks in industrial settings.
+
+The work develops a hardware-agnostic control structure that allows multiple mobile robots and mobile manipulators to operate either independently or cooperatively. It combines formation path planning, decentralized control, manipulator control, and whole-body coordination to improve scalability and adaptability in industrial automation.
+
+The system was experimentally evaluated across object transport, cooperative object handling, and assembly-related scenarios, including configurations with up to eight robots.
+
+## Core contributions
+
+::: {.card-grid two}
+::: {.card}
+### Scalable CMMRS framework
+A framework for scaling and adapting cooperative mobile multi-robot systems to changing product and process parameters.
+:::
+
+::: {.card}
+### Formation path planning and control
+Path planning and control approaches for cooperative object transport with nonholonomic mobile platforms.
+:::
+
+::: {.card}
+### Cooperative object handling
+Control methods for multiple mobile manipulators that jointly grasp and move large-scale components.
+:::
+
+::: {.card}
+### Robust system integration
+Design choices that reduce sensitivity to communication latency, localization uncertainty, and hardware-specific features.
+:::
+:::
+
+## Application domains
+
+| Domain | Description |
+|---|---|
+| Object transport | Large-scale objects are transported by several cooperating mobile platforms. |
+| Object handling | Multiple manipulators move one object in a coordinated way, including spatial motion. |
+| Cooperative assembly | Handling-related tasks with higher accuracy requirements and contact forces. |
+
+## Related projects
+
+::: {.card-grid}
+::: {.project-card}
+<a class="video-thumb" href="https://www.youtube.com/watch?v=f0-cd06wfmM" target="_blank" rel="noopener">
+<img src="assets/images/thumb-object-transport.jpg" alt="Cooperative object transport project thumbnail">
+<span class="play-button">▶</span>
+</a>
+<div class="project-card-body">
+<div class="meta">Dissertation demonstrator</div>
+### Cooperative object transport
+</div>
+:::
+
+::: {.project-card}
+<a class="video-thumb" href="https://www.youtube.com/watch?v=7jzTUw5pK40" target="_blank" rel="noopener">
+<img src="assets/images/thumb-object-handling.jpg" alt="Cooperative object handling project thumbnail">
+<span class="play-button">▶</span>
+</a>
+<div class="project-card-body">
+<div class="meta">Dissertation demonstrator</div>
+### Cooperative object handling
+</div>
+:::
+:::
