@@ -14,7 +14,7 @@ title: "About"
 <div>
 I am Dr.-Ing. Tobias Recker, a robotics researcher at the Institute of Assembly Technology and Robotics at Leibniz University Hannover.
 
-My work focuses on scalable production, mobile multi-robot systems, and robot-robot cooperation. I am particularly interested in robotic systems that can adapt to changing component sizes, process requirements, and production environments without requiring highly specialized single-purpose hardware.
+My work focuses on scalable production, mobile multi-robot systems, and robot-robot cooperation. I am particularly interested in applications where single-purpose robots are difficult to justify because the task spectrum is broad and specialized machines would remain underutilized.
 
 In my dissertation, I developed a scalable framework for cooperative mobile multi-robot systems for handling and assembly of large-scale components. Beyond multi-robot manipulation, I also work on mobile manipulation, trajectory planning, hardware and system integration, and robotic automation for construction and production.
 </div>
@@ -28,6 +28,7 @@ In my dissertation, I developed a scalable framework for cooperative mobile mult
 
 <ul class="tag-list">
 <li>Cooperative mobile multi-robot systems</li>
+<li>Tightly coupled cooperation</li>
 <li>Mobile manipulation</li>
 <li>Multi-robot control</li>
 <li>Formation control</li>

@@ -7,74 +7,167 @@ title: "Publications"
 
 # Selected publications
 
-<p class="lead">A curated list of publications that best represent my current research profile. The full list is available through Scopus and the institute publication page.</p>
+<p class="lead">A curated list of publications that represent my research on cooperative mobile multi-robot systems, mobile manipulation, trajectory planning, and construction automation.</p>
 </div>
 
-## Selected paper
+<div class="publication-list">
 
-::: {.paper-card}
-### Scaling Cooperative Mobile Multi-Robot Systems for Object Handling
+<article class="publication-card">
+<img class="publication-image" src="assets/images/publications/pub-01-placeholder.svg" alt="Placeholder image for publication 1">
+<div class="publication-body">
+<div class="meta">2025</div>
+<h3>Design and control of flexible handling systems based on mobile cooperative multi-robot-systems</h3>
+<p><strong>Tobias Recker</strong>, Annika Raatz. CIRP Annals, Volume 74, Issue 1, pp. 25-29, 2025.</p>
+<p>Flexible handling systems based on mobile cooperative multi-robot systems for scalable industrial object handling.</p>
+<div class="link-list">
+<a href="https://doi.org/10.1016/j.cirp.2025.04.059">DOI</a>
+<a href="https://www.scopus.com/pages/publications/105018301887?origin=resultslist">Scopus</a>
+</div>
+</div>
+</article>
 
-**Tobias Recker**, Lukas Lachmayer, Annika Raatz. 2025 IEEE 21st International Conference on Automation Science and Engineering (CASE), Los Angeles, CA, USA, pp. 2562-2567.
-
-This work presents a scalable cooperative mobile multi-robot framework for object handling and evaluates how CMMRS configurations can be scaled for handling large-scale components with multiple mobile manipulators.
-
+<article class="publication-card">
+<img class="publication-image" src="assets/images/publications/pub-02-placeholder.svg" alt="Placeholder image for publication 2">
+<div class="publication-body">
+<div class="meta">2025</div>
+<h3>Scaling Cooperative Mobile Multi-Robot Systems for Object Handling</h3>
+<p><strong>Tobias Recker</strong>, Lukas Lachmayer, Annika Raatz. 2025 IEEE 21st International Conference on Automation Science and Engineering (CASE), Los Angeles, CA, USA, pp. 2562-2567.</p>
+<p>A scalable cooperative mobile multi-robot framework for object handling with multiple mobile manipulators.</p>
 <div class="link-list">
 <a href="https://doi.org/10.1109/CASE58245.2025.11163753">DOI</a>
 <a href="https://www.youtube.com/watch?v=7jzTUw5pK40">Video</a>
-<a href="dissertation.html">Related dissertation</a>
+<a href="https://www.scopus.com/pages/publications/105018298562?origin=resultslist">Scopus</a>
 </div>
-:::
+</div>
+</article>
 
-## Related publications
+<article class="publication-card">
+<img class="publication-image" src="assets/images/publications/pub-03-placeholder.svg" alt="Placeholder image for publication 3">
+<div class="publication-body">
+<div class="meta">2025</div>
+<h3>Offline platform trajectory planning for print-while-drive additive manufacturing using mobile manipulators</h3>
+<p>Lukas Lachmayer, <strong>Tobias Recker</strong>, Hauke Heeren, Pitt Müller, Annika Raatz. 2025 IEEE 21st International Conference on Automation Science and Engineering (CASE), Los Angeles, CA, USA, pp. 1411-1416.</p>
+<p>Trajectory planning for coordinated platform and manipulator motion in continuous mobile additive manufacturing.</p>
+<div class="link-list">
+<a href="https://doi.org/10.1109/CASE58245.2025.11163995">DOI</a>
+<a href="https://www.youtube.com/watch?v=IAT_a7R-n6Y">Video</a>
+<a href="https://www.scopus.com/pages/publications/105003730449?origin=resultslist">Scopus</a>
+</div>
+</div>
+</article>
 
-::: {.card-grid two}
-::: {.paper-card}
-### Design and control of flexible handling systems based on mobile cooperative multi-robot-systems
+<article class="publication-card">
+<img class="publication-image" src="assets/images/publications/pub-04-placeholder.svg" alt="Placeholder image for publication 4">
+<div class="publication-body">
+<div class="meta">2025</div>
+<h3>Comparison of Global Path Planning Algorithms regarding Multi Mobile Robot Object Transport Requirements</h3>
+<p>Henrik Lurz, <strong>Tobias Recker</strong>, Annika Raatz. Annals of Scientific Society for Assembly, Handling and Industrial Robotics 2023, Springer, Cham, 2025.</p>
+<p>A comparison of global path planning methods for the requirements of multi mobile robot object transport.</p>
+<div class="link-list">
+<a href="https://doi.org/10.1007/978-3-031-74010-7_9">DOI</a>
+<a href="https://www.scopus.com/pages/publications/105001689090?origin=resultslist">Scopus</a>
+</div>
+</div>
+</article>
 
-**Tobias Recker**, Annika Raatz. CIRP Annals, Volume 74, Issue 1, pp. 25-29, 2025.
+<article class="publication-card">
+<img class="publication-image" src="assets/images/publications/pub-05-placeholder.svg" alt="Placeholder image for publication 5">
+<div class="publication-body">
+<div class="meta">2024</div>
+<h3>A Comparative Analysis of Different Semi-Rigid Formation Geometries Regarding Multi-Robot Cooperative Object Transport for Large-Scale Objects</h3>
+<p><strong>Tobias Recker</strong>, Henrik Lurz, Lukas Lachmayer, Annika Raatz. IEEE International Conference on Automation Science and Engineering (CASE), 2024.</p>
+<p>Evaluation of formation geometries for cooperative object transport with multiple mobile robots.</p>
+<div class="link-list">
+<a href="https://www.scopus.com/pages/publications/85208425601?origin=resultslist">Scopus</a>
+</div>
+</div>
+</article>
 
-<div class="link-list"><a href="https://doi.org/10.1016/j.cirp.2025.04.059">DOI</a></div>
-:::
+<article class="publication-card">
+<img class="publication-image" src="assets/images/publications/pub-06-placeholder.svg" alt="Placeholder image for publication 6">
+<div class="publication-body">
+<div class="meta">2024</div>
+<h3>Design of a 6 DoF Multi-Robot Platform for Automated Multistory Valet Parking</h3>
+<p>Moritz Springer, <strong>Tobias Recker</strong>, David Schütz, Annika Raatz. 2024 IEEE International Conference on Cybernetics and Intelligent Systems and IEEE International Conference on Robotics, Automation and Mechatronics, Hangzhou, China, pp. 290-296.</p>
+<p>A multi-robot platform concept for automated multistory valet parking with six degrees of freedom.</p>
+<div class="link-list">
+<a href="https://doi.org/10.1109/CIS-RAM61939.2024.10673400">DOI</a>
+<a href="https://www.scopus.com/pages/publications/85208256597?origin=resultslist">Scopus</a>
+</div>
+</div>
+</article>
 
-::: {.paper-card}
-### Offline platform trajectory planning for print-while-drive additive manufacturing using mobile manipulators
+<article class="publication-card">
+<img class="publication-image" src="assets/images/publications/pub-07-placeholder.svg" alt="Placeholder image for publication 7">
+<div class="publication-body">
+<div class="meta">Digital Concrete 2024</div>
+<h3>A Spatial Multi-layer Control Concept for Strand Geometry Control in Robot-Based Additive Manufacturing Processes</h3>
+<p>Lukas Lachmayer, Jan Quantz, Hauke Heeren, <strong>Tobias Recker</strong>, Ronald Dörrie, Harald Kloft, Annika Raatz. RILEM Bookseries, Digital Concrete 2024.</p>
+<p>A control concept for strand geometry in robot-based additive manufacturing processes.</p>
+<div class="link-list">
+<a href="https://doi.org/10.1007/978-3-031-70031-6_14">DOI</a>
+<a href="https://www.scopus.com/pages/publications/85208227409?origin=resultslist">Scopus</a>
+</div>
+</div>
+</article>
 
-Lukas Lachmayer, **Tobias Recker**, Hauke Heeren, Pitt Müller, Annika Raatz. IEEE CASE, pp. 1411-1416, 2025.
+<article class="publication-card">
+<img class="publication-image" src="assets/images/publications/pub-08-placeholder.svg" alt="Placeholder image for publication 8">
+<div class="publication-body">
+<div class="meta">2024</div>
+<h3>Inline image-based reinforcement detection for concrete additive manufacturing processes using a convolutional neural network</h3>
+<p>Lukas Lachmayer, Leon Dittrich, <strong>Tobias Recker</strong>, Ronald Dörrie, Harald Kloft, Annika Raatz. Proceedings of the International Symposium on Automation and Robotics in Construction (ISARC), 2024.</p>
+<p>Image-based reinforcement detection for concrete additive manufacturing using a convolutional neural network.</p>
+<div class="link-list">
+<a href="https://doi.org/10.22260/ISARC2024/0007">DOI</a>
+<a href="https://www.scopus.com/pages/publications/85203002826?origin=resultslist">Scopus</a>
+</div>
+</div>
+</article>
 
-<div class="link-list"><a href="https://doi.org/10.1109/CASE58245.2025.11163995">DOI</a></div>
-:::
+<article class="publication-card">
+<img class="publication-image" src="assets/images/publications/pub-09-placeholder.svg" alt="Placeholder image for publication 9">
+<div class="publication-body">
+<div class="meta">2023</div>
+<h3>Time-Efficient Path Planning for Semi-Rigid Multi-Robot Formations</h3>
+<p><strong>Tobias Recker</strong>, Sebastian Prophet, Annika Raatz. 2023 IEEE 19th International Conference on Automation Science and Engineering (CASE), Auckland, New Zealand, pp. 1-7.</p>
+<p>Path planning for semi-rigid multi-robot formations with a focus on efficient computation.</p>
+<div class="link-list">
+<a href="https://doi.org/10.1109/CASE56687.2023.10260434">DOI</a>
+<a href="https://www.scopus.com/pages/publications/85174399024?origin=resultslist">Scopus</a>
+</div>
+</div>
+</article>
 
-::: {.paper-card}
-### A Comparative Analysis of Different Semi-Rigid Formation Geometries Regarding Multi-Robot Cooperative Object Transport for Large-Scale Objects
+<article class="publication-card">
+<img class="publication-image" src="assets/images/publications/pub-10-placeholder.svg" alt="Placeholder image for publication 10">
+<div class="publication-body">
+<div class="meta">2022</div>
+<h3>Additive Manufacturing using mobile robots: Opportunities and challenges for building construction</h3>
+<p>Kathrin Dörfler, Gido Dielemans, Lukas Lachmayer, <strong>Tobias Recker</strong>, Annika Raatz, Dirk Lowke, Markus Gerke. Cement and Concrete Research, Vol. 158, 106772, 2022.</p>
+<p>Opportunities and challenges of using mobile robots for additive manufacturing in building construction.</p>
+<div class="link-list">
+<a href="https://doi.org/10.1016/j.cemconres.2022.106772">DOI</a>
+<a href="https://www.scopus.com/pages/publications/85131663569?origin=resultslist">Scopus</a>
+</div>
+</div>
+</article>
 
-**Tobias Recker**, Henrik Lurz, Lukas Lachmayer, Annika Raatz. IEEE CASE, 2024.
-:::
+<article class="publication-card">
+<img class="publication-image" src="assets/images/publications/pub-11-placeholder.svg" alt="Placeholder image for publication 11">
+<div class="publication-body">
+<div class="meta">2022</div>
+<h3>Smooth Spline-based Trajectory Planning for Semi-Rigid Multi-Robot Formations</h3>
+<p><strong>Tobias Recker</strong>, Henrik Lurz, Annika Raatz. 2022 IEEE 18th International Conference on Automation Science and Engineering (CASE), pp. 1417-1422.</p>
+<p>Spline-based trajectory planning for smooth motion of semi-rigid multi-robot formations.</p>
+<div class="link-list">
+<a href="https://doi.org/10.1109/CASE49997.2022.9926604">DOI</a>
+<a href="https://www.scopus.com/pages/publications/85141743121?origin=resultslist">Scopus</a>
+</div>
+</div>
+</article>
 
-::: {.paper-card}
-### Time-Efficient Path Planning for Semi-Rigid Multi-Robot Formations
-
-**Tobias Recker**, Sebastian Prophet, Annika Raatz. IEEE CASE, 2023.
-
-<div class="link-list"><a href="https://doi.org/10.1109/CASE56687.2023.10260434">DOI</a></div>
-:::
-
-::: {.paper-card}
-### Smooth Spline-based Trajectory Planning for Semi-Rigid Multi-Robot Formations
-
-**Tobias Recker**, Henrik Lurz, Annika Raatz. IEEE CASE, pp. 1417-1422, 2022.
-
-<div class="link-list"><a href="https://doi.org/10.1109/CASE49997.2022.9926604">DOI</a></div>
-:::
-
-::: {.paper-card}
-### Additive Manufacturing using mobile robots: Opportunities and challenges for building construction
-
-Kathrin Dörfler, Gido Dielemans, Lukas Lachmayer, **Tobias Recker**, Annika Raatz, Dirk Lowke, Markus Gerke. Cement and Concrete Research, Vol. 158, 106772, 2022.
-
-<div class="link-list"><a href="https://doi.org/10.1016/j.cemconres.2022.106772">DOI</a></div>
-:::
-:::
+</div>
 
 ## Profiles
 

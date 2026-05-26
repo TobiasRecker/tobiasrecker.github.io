@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Publication 02">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f3ea"/>
+      <stop offset="1" stop-color="#e4dccd"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <rect x="48" y="48" width="1104" height="704" rx="34" fill="none" stroke="#cdbfA6" stroke-width="4"/>
+  <circle cx="1045" cy="150" r="58" fill="#9b7a44" opacity="0.18"/>
+  <path d="M110 625 C 285 450, 410 550, 560 410 S 850 520, 1090 345" fill="none" stroke="#24304a" stroke-width="16" stroke-linecap="round" opacity="0.22"/>
+  <text x="88" y="130" fill="#72552d" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing="4">PLACEHOLDER</text>
+  <text x="88" y="650" fill="#172033" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">Publication 02</text>
+  <text x="88" y="708" fill="#647084" font-family="Arial, Helvetica, sans-serif" font-size="30">replace with paper figure or project image</text>
+</svg>

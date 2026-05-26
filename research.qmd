@@ -7,15 +7,16 @@ title: "Research"
 
 # Scalable robotic cooperation for large-scale tasks
 
-<p class="lead">My research focuses on adaptable robotic systems that can scale with the task: from individual mobile manipulators to cooperative teams that jointly transport, handle, and assemble large-scale components.</p>
+<p class="lead">My research focuses on tightly coupled cooperative mobile multi-robot systems that can scale with task size. In these systems, several robots handle a common object and coordinate motion in scenarios that cannot be solved by a single robot alone.</p>
 </div>
 
 ## Core questions
 
-- How can multiple mobile robots cooperate on a shared object without relying on highly specialized hardware?
+- How can multiple mobile robots handle a common object without relying on highly specialized hardware?
 - How can cooperative robot systems scale from small to large configurations while remaining easy to program?
 - How can mobile manipulators handle large-scale components despite localization errors, communication latency, and kinematic overdetermination?
 - How can robotic automation become more adaptable for changing products, component sizes, and production environments?
+- How can reusable robotic teams improve utilization when the task spectrum is too broad for dedicated special-purpose machines?
 
 ## Research themes
 
@@ -29,7 +30,7 @@ I investigate cooperative mobile multi-robot systems in which several robots wor
 ::: {.card}
 ### Scalable control and path planning
 
-A central goal of my work is to make cooperative robot systems scalable: adding or removing robots should not require redesigning the entire system. My research combines formation path planning, decentralized control, and hardware-independent system architectures.
+A central goal of my work is to make cooperative robot systems scalable. Adding or removing robots should not require redesigning the entire system. My research combines formation path planning, decentralized control, and hardware-independent system architectures.
 :::
 
 ::: {.card}
@@ -51,7 +52,7 @@ Beyond industrial handling and assembly, I work on mobile robotic systems for co
 ::: {.info-card}
 ### System perspective
 
-I am interested in the complete robotic system: mobile platforms, manipulators, tools, sensors, controllers, path planners, communication, and experimental validation. The goal is not only to design algorithms, but to make them work on real robotic hardware.
+I am interested in the complete robotic system, including mobile platforms, manipulators, tools, sensors, controllers, path planners, communication, and experimental validation. The goal is not only to design algorithms, but to make them work on real robotic hardware.
 :::
 
 ::: {.info-card}
@@ -67,6 +68,7 @@ My work emphasizes physical experiments with mobile robots and mobile manipulato
 <li>Mobile manipulation</li>
 <li>Cooperative object transport</li>
 <li>Cooperative object handling</li>
+<li>Tightly coupled cooperation</li>
 <li>Multi-robot control</li>
 <li>Formation control</li>
 <li>Path planning</li>
@@ -86,7 +88,7 @@ My work emphasizes physical experiments with mobile robots and mobile manipulato
 
 A scalable cooperative mobile multi-robot framework for handling and assembly of large-scale components.
 
-<div class="link-list"><a href="dissertation.html">Read summary →</a></div>
+<div class="link-list"><a href="dissertation.html">Read summary</a></div>
 :::
 
 ::: {.card}
@@ -94,7 +96,7 @@ A scalable cooperative mobile multi-robot framework for handling and assembly of
 
 Demonstrators for cooperative object transport, object handling with mobile manipulators, and print-while-drive additive manufacturing.
 
-<div class="link-list"><a href="projects.html">View projects →</a></div>
+<div class="link-list"><a href="projects.html">View projects</a></div>
 :::
 
 ::: {.card}
@@ -102,6 +104,6 @@ Demonstrators for cooperative object transport, object handling with mobile mani
 
 Selected publications on cooperative mobile multi-robot systems, mobile manipulation, formation path planning, and construction automation.
 
-<div class="link-list"><a href="publications.html">View publications →</a></div>
+<div class="link-list"><a href="publications.html">View publications</a></div>
 :::
 :::
