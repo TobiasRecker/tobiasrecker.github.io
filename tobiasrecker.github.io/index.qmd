@@ -1,0 +1,133 @@
+---
+title: "Home"
+image: assets/images/og-image.jpg
+---
+
+::: {.hero}
+::: {.hero-text}
+<div class="kicker">Research profile</div>
+
+# Dr.-Ing. Tobias Recker
+
+<div class="hero-meta">Postdoctoral Researcher · Institute of Assembly Technology and Robotics · Leibniz University Hannover</div>
+
+<p class="lead">I develop scalable cooperative mobile multi-robot systems for industrial handling, assembly, and construction automation.</p>
+
+I design control, path-planning, and system-integration approaches that allow multiple mobile robots and mobile manipulators to cooperate as one adaptable robotic system — especially for large-scale components that are difficult to handle with a single robot.
+
+<div class="button-row">
+<a class="button primary" href="research.html">Explore research</a>
+<a class="button" href="projects.html">View projects</a>
+<a class="button" href="assets/pdfs/recker-dissertation-2025.pdf">Download dissertation</a>
+</div>
+:::
+
+::: {.hero-portrait-wrap}
+<img class="hero-portrait" src="assets/images/tobias-recker-portrait.jpg" alt="Portrait of Tobias Recker">
+:::
+:::
+
+## Research focus
+
+<p class="section-intro">My work is centered on robotic systems that become more useful when they cooperate: robots that share objects, coordinate motion, and scale with task size instead of being designed as single-purpose machines.</p>
+
+::: {.card-grid}
+::: {.card}
+### Cooperative mobile multi-robot systems
+Scalable control frameworks for mobile robots and mobile manipulators that jointly transport, handle, and assemble large-scale components.
+:::
+
+::: {.card}
+### Mobile manipulation and control
+Coordination of mobile platforms and robotic arms, including formation control, trajectory planning, and whole-body control.
+:::
+
+::: {.card}
+### Automation for construction and production
+Robotic automation for flexible manufacturing, large-scale assembly, and mobile additive manufacturing.
+:::
+:::
+
+## Featured projects
+
+::: {.card-grid}
+::: {.project-card}
+<a class="video-thumb" href="https://www.youtube.com/watch?v=7jzTUw5pK40" target="_blank" rel="noopener">
+<img src="assets/images/thumb-object-handling.jpg" alt="Cooperative object handling with eight mobile manipulators">
+<span class="play-button">▶</span>
+</a>
+<div class="project-card-body">
+<div class="meta">Cooperative handling</div>
+### Cooperative object handling
+Multiple mobile manipulators jointly grasp and move one object in a spatial workspace.
+</div>
+:::
+
+::: {.project-card}
+<a class="video-thumb" href="https://www.youtube.com/watch?v=f0-cd06wfmM" target="_blank" rel="noopener">
+<img src="assets/images/thumb-object-transport.jpg" alt="Cooperative object transport with mobile robot platforms">
+<span class="play-button">▶</span>
+</a>
+<div class="project-card-body">
+<div class="meta">Object transport</div>
+### Cooperative object transport
+Mobile platforms coordinate formation motion to transport large industrial components.
+</div>
+:::
+
+::: {.project-card}
+<a class="video-thumb" href="https://www.youtube.com/watch?v=IAT_a7R-n6Y" target="_blank" rel="noopener">
+<img src="assets/images/thumb-additive-manufacturing.jpg" alt="Mobile additive manufacturing with mobile manipulators">
+<span class="play-button">▶</span>
+</a>
+<div class="project-card-body">
+<div class="meta">Construction automation</div>
+### Print-while-drive additive manufacturing
+A mobile manipulator coordinates platform and arm motion for continuous large-scale additive manufacturing.
+</div>
+:::
+:::
+
+<div class="link-list">
+<a href="projects.html">All project details →</a>
+</div>
+
+## Selected publication
+
+::: {.paper-card}
+### Scaling Cooperative Mobile Multi-Robot Systems for Object Handling
+
+Tobias Recker, Lukas Lachmayer, Annika Raatz. 2025 IEEE 21st International Conference on Automation Science and Engineering (CASE), Los Angeles, CA, USA, pp. 2562-2567.
+
+This paper presents and evaluates a scalable cooperative mobile multi-robot framework for object handling with multiple mobile manipulators.
+
+<div class="link-list">
+<a href="https://doi.org/10.1109/CASE58245.2025.11163753">DOI</a>
+<a href="publications.html">More publications</a>
+</div>
+:::
+
+## Dissertation
+
+::: {.feature}
+### Scaling of Cooperative Mobile Multi-Robot Systems for Handling and Assembly of Large-Scale Components
+
+My dissertation investigates a scalable CMMRS framework for collaborative object handling and assembly tasks in industrial settings. It combines a hardware-agnostic control structure with path planning and experimental validation across transport, handling, and assembly-related scenarios.
+
+<div class="link-list">
+<a href="dissertation.html">Dissertation summary</a>
+<a href="assets/pdfs/recker-dissertation-2025.pdf">Download PDF</a>
+</div>
+:::
+
+## Research keywords
+
+<ul class="tag-list">
+<li>Mobile manipulation</li>
+<li>Cooperative multi-robot systems</li>
+<li>Formation control</li>
+<li>Trajectory planning</li>
+<li>Robot learning</li>
+<li>Hardware and system integration</li>
+<li>Construction automation</li>
+</ul>

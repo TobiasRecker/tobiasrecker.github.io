@@ -1,0 +1,48 @@
+---
+title: "Contact"
+---
+
+<div class="page-header">
+<div class="kicker">Contact</div>
+
+# Contact
+
+<p class="lead">For research-related questions, collaborations, invited talks, or student projects, feel free to contact me.</p>
+</div>
+
+::: {.feature}
+### Email
+
+`recker [at] match.uni-hannover.de`
+
+I write the address in this form to reduce automated scraping. Please replace `[at]` with `@`.
+:::
+
+## Profiles
+
+<div class="button-row">
+<a class="button primary" href="https://github.com/TobiasRecker">GitHub</a>
+<a class="button" href="https://orcid.org/0000-0003-1632-0538">ORCID</a>
+<a class="button" href="https://de.linkedin.com/in/tobias-recker-14349521b">LinkedIn</a>
+<a class="button" href="https://www.scopus.com/authid/detail.uri?authorId=57216780652">Scopus</a>
+<a class="button" href="https://www.match.uni-hannover.de/en/institute/team/tobias-recker">Institute profile</a>
+</div>
+
+## Open to
+
+::: {.card-grid}
+::: {.card}
+### Research collaborations
+Cooperative mobile robots, mobile manipulation, multi-robot control, and construction automation.
+:::
+
+::: {.card}
+### Talks and discussions
+Research talks, project discussions, and exchange on industrial mobile robot systems.
+:::
+
+::: {.card}
+### Student projects
+Topics related to mobile manipulation, path planning, control, and system integration.
+:::
+:::
