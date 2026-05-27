@@ -240,20 +240,9 @@ A mobile manipulator coordinates platform and arm motion for continuous large-sc
 </article>
 
 <article class="publication-card">
-<img class="publication-image" src="assets/images/publications/pub-07-placeholder.svg" alt="Placeholder image for publication 7">
-<div class="publication-body">
-<div class="meta">Digital Concrete 2024</div>
-<h3>A Spatial Multi-layer Control Concept for Strand Geometry Control in Robot-Based Additive Manufacturing Processes</h3>
-<p>Lukas Lachmayer, Jan Quantz, Hauke Heeren, <strong>Tobias Recker</strong>, Ronald Dörrie, Harald Kloft, Annika Raatz. RILEM Bookseries, Digital Concrete 2024.</p>
-<div class="link-list">
-<a href="https://doi.org/10.1007/978-3-031-70031-6_14">DOI</a>
-<a href="https://www.scopus.com/pages/publications/85208227409?origin=resultslist">Scopus</a>
-</div>
-</div>
-</article>
-
-<article class="publication-card">
-<img class="publication-image" src="assets/images/publications/pub-08-placeholder.svg" alt="Placeholder image for publication 8">
+<button class="publication-image-button lightbox-trigger" type="button" data-lightbox-group="publications" data-gallery-src="assets/images/publications/pub-06-inline-reinforcement.png" data-gallery-title="Inline image-based reinforcement detection" data-gallery-description="Shotcrete 3D printing at the DBFL of the ITE TU Braunschweig, including short reinforcement bar insertion and a 2D laser profiler running ahead of the printing nozzle. The goal of the paper is detecting this type of reinforcement element.">
+<img class="publication-image" src="assets/images/publications/pub-06-inline-reinforcement.png" alt="Shotcrete 3D printing setup with reinforcement bar insertion and laser profiler">
+</button>
 <div class="publication-body">
 <div class="meta">2024</div>
 <h3>Inline image-based reinforcement detection for concrete additive manufacturing processes using a convolutional neural network</h3>
@@ -266,7 +255,9 @@ A mobile manipulator coordinates platform and arm motion for continuous large-sc
 </article>
 
 <article class="publication-card">
-<img class="publication-image" src="assets/images/publications/pub-09-placeholder.svg" alt="Placeholder image for publication 9">
+<button class="publication-image-button lightbox-trigger" type="button" data-lightbox-group="publications" data-gallery-src="assets/images/publications/pub-07-time-efficient-path-planning.png" data-gallery-title="Time-Efficient Path Planning for Semi-Rigid Multi-Robot Formations" data-gallery-description="Parallel formation for three MiR 100 robots at different points along the SVP-planned formation path.">
+<img class="publication-image" src="assets/images/publications/pub-07-time-efficient-path-planning.png" alt="Parallel formation of three MiR 100 robots along an SVP-planned formation path">
+</button>
 <div class="publication-body">
 <div class="meta">2023</div>
 <h3>Time-Efficient Path Planning for Semi-Rigid Multi-Robot Formations</h3>
@@ -279,7 +270,9 @@ A mobile manipulator coordinates platform and arm motion for continuous large-sc
 </article>
 
 <article class="publication-card">
-<img class="publication-image" src="assets/images/publications/pub-10-placeholder.svg" alt="Placeholder image for publication 10">
+<button class="publication-image-button lightbox-trigger" type="button" data-lightbox-group="publications" data-gallery-src="assets/images/publications/pub-08-mobile-additive-manufacturing.png" data-gallery-title="Additive Manufacturing using mobile robots" data-gallery-description="A pair of collaborative mobile robot research platforms for in situ additive manufacturing, each consisting of a wheeled mobile base, an integrated linear axis, and a collaborative 6-axis robot arm. One system is equipped with a clay 3D printing setup.">
+<img class="publication-image" src="assets/images/publications/pub-08-mobile-additive-manufacturing.png" alt="Collaborative mobile robot research platforms for in situ additive manufacturing">
+</button>
 <div class="publication-body">
 <div class="meta">2022</div>
 <h3>Additive Manufacturing using mobile robots: Opportunities and challenges for building construction</h3>
@@ -292,7 +285,9 @@ A mobile manipulator coordinates platform and arm motion for continuous large-sc
 </article>
 
 <article class="publication-card">
-<img class="publication-image" src="assets/images/publications/pub-11-placeholder.svg" alt="Placeholder image for publication 11">
+<button class="publication-image-button lightbox-trigger" type="button" data-lightbox-group="publications" data-gallery-src="assets/images/publications/pub-09-smooth-spline.png" data-gallery-title="Smooth Spline-based Trajectory Planning for Semi-Rigid Multi-Robot Formations" data-gallery-description="Triangular formation of three MiR industrial robots. From left to right: virtual leader, robot 1, and robot 2.">
+<img class="publication-image" src="assets/images/publications/pub-09-smooth-spline.png" alt="Triangular formation of three MiR industrial robots">
+</button>
 <div class="publication-body">
 <div class="meta">2022</div>
 <h3>Smooth Spline-based Trajectory Planning for Semi-Rigid Multi-Robot Formations</h3>

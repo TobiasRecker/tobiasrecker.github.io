@@ -139,6 +139,15 @@ assets/images/publications/pub-04-formation-geometries.png
 assets/images/publications/pub-05-valet-parking.png
 ```
 
+Four additional publication images were copied from the user's second compressed image export:
+
+```text
+assets/images/publications/pub-06-inline-reinforcement.png
+assets/images/publications/pub-07-time-efficient-path-planning.png
+assets/images/publications/pub-08-mobile-additive-manufacturing.png
+assets/images/publications/pub-09-smooth-spline.png
+```
+
 Publication images are clickable and use the same lightbox script as the project gallery:
 
 ```text
@@ -146,6 +155,8 @@ assets/site.js
 ```
 
 The publication "Comparison of Global Path Planning Algorithms regarding Multi Mobile Robot Object Transport Requirements" is intentionally hidden for now.
+
+The publication "A Spatial Multi-layer Control Concept for Strand Geometry Control in Robot-Based Additive Manufacturing Processes" is intentionally hidden from the homepage publication overview for now. It may remain on the dedicated publications page.
 
 Gallery placeholder images from v0.2:
 
