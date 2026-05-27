@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Research – Tobias Recker</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -36,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dba2b85ffc589276533e8dc0679c755b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b624285362a68ad152de80befe92b0b8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +75,6 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Research – Tobias Recker">
-<meta property="og:description" content="Research profile of Dr.-Ing. Tobias Recker, Postdoctoral Researcher in cooperative mobile multi-robot systems, mobile manipulation, and construction automation.">
 <meta property="og:site_name" content="Tobias Recker">
 </head>
 
@@ -84,7 +86,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/favicon.svg" alt="" class="navbar-logo">
+    <img src="./assets/favicon.svg" alt="" class="navbar-logo light-content">
+    <img src="./assets/favicon.svg" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Tobias Recker</span>
@@ -192,33 +195,60 @@ My research focuses on tightly coupled cooperative mobile multi-robot systems th
 </section>
 <section id="research-themes" class="level2">
 <h2 class="anchored" data-anchor-id="research-themes">Research themes</h2>
-<p>::: {.card-grid two} ::: {.card} ### Cooperative mobile multi-robot systems</p>
-<p>I investigate cooperative mobile multi-robot systems in which several robots work on the same physical object. This creates strong spatial and temporal dependencies between the robots and introduces challenges such as synchronization, localization accuracy, communication latency, and kinematic overdetermination. :::</p>
-<section id="scalable-control-and-path-planning" class="level3 card">
-<h3 class="anchored" data-anchor-id="scalable-control-and-path-planning">Scalable control and path planning</h3>
-<p>A central goal of my work is to make cooperative robot systems scalable. Adding or removing robots should not require redesigning the entire system. My research combines formation path planning, decentralized control, and hardware-independent system architectures.</p>
-</section>
-<section id="mobile-manipulation-for-industrial-automation" class="level3 card">
-<h3 class="anchored" data-anchor-id="mobile-manipulation-for-industrial-automation">Mobile manipulation for industrial automation</h3>
-<p>I work on mobile manipulators for large-scale object transport, handling, and assembly. These systems are particularly relevant when components are too large, too heavy, or too variable for conventional single-robot solutions.</p>
-</section>
-<section id="construction-automation-and-mobile-additive-manufacturing" class="level3 card">
-<h3 class="anchored" data-anchor-id="construction-automation-and-mobile-additive-manufacturing">Construction automation and mobile additive manufacturing</h3>
-<p>Beyond industrial handling and assembly, I work on mobile robotic systems for construction automation, including mobile additive manufacturing and print-while-drive processes.</p>
-</section>
-<p>:::</p>
+<div class="card-grid two">
+<article class="card">
+<h3 class="anchored">
+Cooperative mobile multi-robot systems
+</h3>
+<p>
+I investigate cooperative mobile multi-robot systems in which several robots work on the same physical object. This creates strong spatial and temporal dependencies between the robots and introduces challenges such as synchronization, localization accuracy, communication latency, and kinematic overdetermination.
+</p>
+</article>
+<article class="card">
+<h3 class="anchored">
+Scalable control and path planning
+</h3>
+<p>
+A central goal of my work is to make cooperative robot systems scalable. Adding or removing robots should not require redesigning the entire system. My research combines formation path planning, decentralized control, and hardware-independent system architectures.
+</p>
+</article>
+<article class="card">
+<h3 class="anchored">
+Mobile manipulation for industrial automation
+</h3>
+<p>
+I work on mobile manipulators for large-scale object transport, handling, and assembly. These systems are particularly relevant when components are too large, too heavy, or too variable for conventional single-robot solutions.
+</p>
+</article>
+<article class="card">
+<h3 class="anchored">
+Construction automation and mobile additive manufacturing
+</h3>
+<p>
+Beyond industrial handling and assembly, I work on mobile robotic systems for construction automation, including mobile additive manufacturing and print-while-drive processes.
+</p>
+</article>
+</div>
 </section>
 <section id="approach" class="level2">
 <h2 class="anchored" data-anchor-id="approach">Approach</h2>
 <div class="split">
-<section id="system-perspective" class="level3 info-card">
-<h3 class="anchored" data-anchor-id="system-perspective">System perspective</h3>
-<p>I am interested in the complete robotic system, including mobile platforms, manipulators, tools, sensors, controllers, path planners, communication, and experimental validation. The goal is not only to design algorithms, but to make them work on real robotic hardware.</p>
-</section>
-<section id="experimental-validation" class="level3 info-card">
-<h3 class="anchored" data-anchor-id="experimental-validation">Experimental validation</h3>
-<p>My work emphasizes physical experiments with mobile robots and mobile manipulators. This includes cooperative object transport, cooperative object handling, and mobile additive manufacturing in laboratory and production-like environments.</p>
-</section>
+<article class="info-card">
+<h3 class="anchored">
+System perspective
+</h3>
+<p>
+I am interested in the complete robotic system, including mobile platforms, manipulators, tools, sensors, controllers, path planners, communication, and experimental validation. The goal is not only to design algorithms, but to make them work on real robotic hardware.
+</p>
+</article>
+<article class="info-card">
+<h3 class="anchored">
+Experimental validation
+</h3>
+<p>
+My work emphasizes physical experiments with mobile robots and mobile manipulators. This includes cooperative object transport, cooperative object handling, and mobile additive manufacturing in laboratory and production-like environments.
+</p>
+</article>
 </div>
 </section>
 <section id="methods-and-topics" class="level2">
@@ -268,27 +298,39 @@ Automation for construction
 <section id="representative-outputs" class="level2">
 <h2 class="anchored" data-anchor-id="representative-outputs">Representative outputs</h2>
 <div class="card-grid">
-<section id="dissertation" class="level3 card">
-<h3 class="anchored" data-anchor-id="dissertation">Dissertation</h3>
-<p>A scalable cooperative mobile multi-robot framework for handling and assembly of large-scale components.</p>
+<article class="card">
+<h3 class="anchored">
+Dissertation
+</h3>
+<p>
+A scalable cooperative mobile multi-robot framework for handling and assembly of large-scale components.
+</p>
 <div class="link-list">
 <a href="dissertation.html">Read summary</a>
 </div>
-</section>
-<section id="projects" class="level3 card">
-<h3 class="anchored" data-anchor-id="projects">Projects</h3>
-<p>Demonstrators for cooperative object transport, object handling with mobile manipulators, and print-while-drive additive manufacturing.</p>
+</article>
+<article class="card">
+<h3 class="anchored">
+Projects
+</h3>
+<p>
+Demonstrators for cooperative object transport, object handling with mobile manipulators, and print-while-drive additive manufacturing.
+</p>
 <div class="link-list">
 <a href="projects.html">View projects</a>
 </div>
-</section>
-<section id="publications" class="level3 card">
-<h3 class="anchored" data-anchor-id="publications">Publications</h3>
-<p>Selected publications on cooperative mobile multi-robot systems, mobile manipulation, formation path planning, and construction automation.</p>
+</article>
+<article class="card">
+<h3 class="anchored">
+Publications
+</h3>
+<p>
+Selected publications on cooperative mobile multi-robot systems, mobile manipulation, formation path planning, and construction automation.
+</p>
 <div class="link-list">
 <a href="publications.html">View publications</a>
 </div>
-</section>
+</article>
 </div>
 
 
@@ -346,13 +388,14 @@ Automation for construction
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

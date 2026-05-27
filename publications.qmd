@@ -13,7 +13,9 @@ title: "Publications"
 <div class="publication-list">
 
 <article class="publication-card">
-<img class="publication-image" src="assets/images/publications/pub-01-placeholder.svg" alt="Placeholder image for publication 1">
+<button class="publication-image-button lightbox-trigger" type="button" data-lightbox-group="publications" data-gallery-src="assets/images/publications/pub-01-design-control.png" data-gallery-title="Design and control of flexible handling systems" data-gallery-description="Cooperative object handling using up to eight UR10e robots.">
+<img class="publication-image" src="assets/images/publications/pub-01-design-control.png" alt="Cooperative object handling using up to eight UR10e robots">
+</button>
 <div class="publication-body">
 <div class="meta">2025</div>
 <h3>Design and control of flexible handling systems based on mobile cooperative multi-robot-systems</h3>
@@ -27,7 +29,9 @@ title: "Publications"
 </article>
 
 <article class="publication-card">
-<img class="publication-image" src="assets/images/publications/pub-02-placeholder.svg" alt="Placeholder image for publication 2">
+<button class="publication-image-button lightbox-trigger" type="button" data-lightbox-group="publications" data-gallery-src="assets/images/publications/pub-02-scaling-object-handling.png" data-gallery-title="Scaling Cooperative Mobile Multi-Robot Systems for Object Handling" data-gallery-description="Payload test with a person weighing 75 kg. The experiment studies dynamic load distribution across eight manipulators.">
+<img class="publication-image" src="assets/images/publications/pub-02-scaling-object-handling.png" alt="Payload test with a person on a cooperative object handling setup">
+</button>
 <div class="publication-body">
 <div class="meta">2025</div>
 <h3>Scaling Cooperative Mobile Multi-Robot Systems for Object Handling</h3>
@@ -42,7 +46,9 @@ title: "Publications"
 </article>
 
 <article class="publication-card">
-<img class="publication-image" src="assets/images/publications/pub-03-placeholder.svg" alt="Placeholder image for publication 3">
+<button class="publication-image-button lightbox-trigger" type="button" data-lightbox-group="publications" data-gallery-src="assets/images/publications/pub-03-print-while-drive.png" data-gallery-title="Offline platform trajectory planning for print-while-drive additive manufacturing" data-gallery-description="Given a pre-defined printing trajectory, mobile additive manufacturing trajectory planning algorithms define a platform trajectory. The image shows the test setup using a MiR600 platform and UR10e arm.">
+<img class="publication-image" src="assets/images/publications/pub-03-print-while-drive.png" alt="MiR600 platform and UR10e arm for mobile additive manufacturing trajectory planning">
+</button>
 <div class="publication-body">
 <div class="meta">2025</div>
 <h3>Offline platform trajectory planning for print-while-drive additive manufacturing using mobile manipulators</h3>
@@ -57,21 +63,9 @@ title: "Publications"
 </article>
 
 <article class="publication-card">
-<img class="publication-image" src="assets/images/publications/pub-04-placeholder.svg" alt="Placeholder image for publication 4">
-<div class="publication-body">
-<div class="meta">2025</div>
-<h3>Comparison of Global Path Planning Algorithms regarding Multi Mobile Robot Object Transport Requirements</h3>
-<p>Henrik Lurz, <strong>Tobias Recker</strong>, Annika Raatz. Annals of Scientific Society for Assembly, Handling and Industrial Robotics 2023, Springer, Cham, 2025.</p>
-<p>A comparison of global path planning methods for the requirements of multi mobile robot object transport.</p>
-<div class="link-list">
-<a href="https://doi.org/10.1007/978-3-031-74010-7_9">DOI</a>
-<a href="https://www.scopus.com/pages/publications/105001689090?origin=resultslist">Scopus</a>
-</div>
-</div>
-</article>
-
-<article class="publication-card">
-<img class="publication-image" src="assets/images/publications/pub-05-placeholder.svg" alt="Placeholder image for publication 5">
+<button class="publication-image-button lightbox-trigger" type="button" data-lightbox-group="publications" data-gallery-src="assets/images/publications/pub-04-formation-geometries.png" data-gallery-title="Semi-rigid formation geometries for cooperative object transport" data-gallery-description="Illustration of the three transport formations and objects used in this work. For reference, the I-beams shown are 3.3 m long and weigh 625 kg each.">
+<img class="publication-image" src="assets/images/publications/pub-04-formation-geometries.png" alt="Three transport formations and large-scale objects for cooperative object transport">
+</button>
 <div class="publication-body">
 <div class="meta">2024</div>
 <h3>A Comparative Analysis of Different Semi-Rigid Formation Geometries Regarding Multi-Robot Cooperative Object Transport for Large-Scale Objects</h3>
@@ -84,7 +78,9 @@ title: "Publications"
 </article>
 
 <article class="publication-card">
-<img class="publication-image" src="assets/images/publications/pub-06-placeholder.svg" alt="Placeholder image for publication 6">
+<button class="publication-image-button lightbox-trigger" type="button" data-lightbox-group="publications" data-gallery-src="assets/images/publications/pub-05-valet-parking.png" data-gallery-title="Design of a 6 DoF Multi-Robot Platform for Automated Multistory Valet Parking" data-gallery-description="Concept design study of the multi-robot platform. One mobile robot lifts one wheel of the car.">
+<img class="publication-image" src="assets/images/publications/pub-05-valet-parking.png" alt="Concept design study of a mobile robot lifting one wheel of a car">
+</button>
 <div class="publication-body">
 <div class="meta">2024</div>
 <h3>Design of a 6 DoF Multi-Robot Platform for Automated Multistory Valet Parking</h3>
@@ -180,3 +176,5 @@ title: "Publications"
 ## BibTeX
 
 A small starter BibTeX file is included in the website repository at `assets/data/references.bib`.
+
+<script defer src="assets/site.js"></script>

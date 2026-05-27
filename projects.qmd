@@ -111,7 +111,3 @@ Instead of separating driving and printing into discrete steps, the robot contin
 </div>
 </div>
 </section>
-
-## Privacy-friendly video handling
-
-The videos above are not embedded. Each project uses a locally hosted thumbnail and opens YouTube only after clicking the play button.

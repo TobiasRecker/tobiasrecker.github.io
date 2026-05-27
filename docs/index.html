@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Home – Tobias Recker</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -36,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dba2b85ffc589276533e8dc0679c755b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b624285362a68ad152de80befe92b0b8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,7 +88,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/favicon.svg" alt="" class="navbar-logo">
+    <img src="./assets/favicon.svg" alt="" class="navbar-logo light-content">
+    <img src="./assets/favicon.svg" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Tobias Recker</span>
@@ -190,7 +194,9 @@ I develop scalable cooperative mobile multi-robot systems for industrial handlin
 </section>
 </div>
 <div class="hero-portrait-wrap">
-<p><img class="hero-portrait" src="assets/images/tobias-recker-portrait.jpg" alt="Portrait of Tobias Recker"></p>
+<button class="hero-stack-button" type="button" aria-label="Switch profile image" aria-pressed="false" data-photo-stack="">
+<img class="hero-portrait hero-portrait-front" src="assets/images/tobias-recker-portrait.jpg" alt="Portrait of Tobias Recker"> <img class="hero-portrait-back" src="assets/images/tobias-recker2.jpg" alt="Tobias Recker with cooperative robot manipulators"> <span class="hero-stack-indicator" aria-hidden="true"><span></span><span></span></span>
+</button>
 </div>
 </div>
 <section id="research-focus" class="level2">
@@ -260,52 +266,91 @@ Construction automation
 <section id="project-gallery" class="level2">
 <h2 class="anchored" data-anchor-id="project-gallery">Project gallery</h2>
 <p class="section-intro">
-A visual overview of selected demonstrators and experimental setups. The last images are placeholders and can be replaced once the final project photos are selected.
+A visual overview of selected demonstrators and experimental setups.
 </p>
 <div class="gallery-grid">
 <figure class="figure">
-<img src="assets/images/project-object-handling.jpg" alt="Cooperative object handling setup" class="figure-img">
+<button class="gallery-trigger lightbox-trigger" type="button" data-lightbox-group="gallery" data-gallery-src="assets/images/gallery/Gallery04.jpg" data-gallery-title="High-payload cooperative handling" data-gallery-description="Four UR10e manipulators jointly handle a 30 kg fence post mounted on a ladder. The setup demonstrates cooperative handling at high payload and shows the control performance under a large-scale load.">
+<img src="assets/images/gallery/Gallery04.jpg" alt="Four UR10e manipulators gripping a ladder with a 30 kg fence post" class="figure-img">
 <figcaption>
-Cooperative object handling
+High-payload cooperative handling
 </figcaption>
+</button>
 </figure>
 <figure class="figure">
-<img src="assets/images/project-object-transport.jpg" alt="Cooperative object transport setup" class="figure-img">
+<button class="gallery-trigger lightbox-trigger" type="button" data-lightbox-group="gallery" data-gallery-src="assets/images/gallery/Gallery03.jpg" data-gallery-title="Cooperative handling demonstrator" data-gallery-description="Four mobile manipulators jointly hold a deck chair carrying a Unitree G1. The demonstrator shows coordinated handling of one common object with a complex payload.">
+<img src="assets/images/gallery/Gallery03.jpg" alt="Four mobile manipulators holding a deck chair with a Unitree G1" class="figure-img">
 <figcaption>
-Cooperative object transport
+Cooperative handling demonstrator
 </figcaption>
+</button>
 </figure>
 <figure class="figure">
-<img src="assets/images/project-additive-manufacturing.jpg" alt="Mobile additive manufacturing setup" class="figure-img">
+<button class="gallery-trigger lightbox-trigger" type="button" data-lightbox-group="gallery" data-gallery-src="assets/images/gallery/Gallery06.jpg" data-gallery-title="Multi-axis material testing" data-gallery-description="Two manipulators deform a silicone specimen and measure wrench forces during multi-axis loading. A third manipulator simulates environmental contact and measures the resulting interaction forces.">
+<img src="assets/images/gallery/Gallery06.jpg" alt="Robot manipulators deforming a silicone specimen for force measurement" class="figure-img">
 <figcaption>
-Mobile additive manufacturing
+Multi-axis material testing
 </figcaption>
+</button>
 </figure>
 <figure class="figure">
-<img src="assets/images/gallery/gallery-04-placeholder.svg" alt="Placeholder for project gallery image" class="figure-img">
+<button class="gallery-trigger lightbox-trigger" type="button" data-lightbox-group="gallery" data-gallery-src="assets/images/gallery/Gallery01.jpg" data-gallery-title="Scalable repair for large drives" data-gallery-description="A mobile multi-robot system exchanges the cooling fan motor of a large drive. The setup illustrates scalable robotic repair for large industrial equipment.">
+<img src="assets/images/gallery/Gallery01.jpg" alt="Mobile multi-robot system exchanging a cooling fan motor" class="figure-img">
 <figcaption>
-Manipulator detail
+Scalable repair for large drives
 </figcaption>
+</button>
 </figure>
 <figure class="figure">
-<img src="assets/images/gallery/gallery-05-placeholder.svg" alt="Placeholder for project gallery image" class="figure-img">
+<button class="gallery-trigger lightbox-trigger" type="button" data-lightbox-group="gallery" data-gallery-src="assets/images/gallery/Gallery05.jpg" data-gallery-title="Scalable automotive repair" data-gallery-description="A mobile multi-robot system supports the exchange of installed parts on a VW ID.3. This view shows the robots positioned around the vehicle door.">
+<img src="assets/images/gallery/Gallery05.jpg" alt="Mobile robots positioned around the door of a VW ID.3" class="figure-img">
 <figcaption>
-Experimental setup
+Scalable automotive repair
 </figcaption>
+</button>
 </figure>
 <figure class="figure">
-<img src="assets/images/gallery/gallery-06-placeholder.svg" alt="Placeholder for project gallery image" class="figure-img">
+<button class="gallery-trigger lightbox-trigger" type="button" data-lightbox-group="gallery" data-gallery-src="assets/images/gallery/Gallery02.jpg" data-gallery-title="Cooperative door removal" data-gallery-description="Four robots jointly grasp the door of a VW ID.3 to lift it out of the vehicle. The scenario demonstrates cooperative handling for installed automotive components.">
+<img src="assets/images/gallery/Gallery02.jpg" alt="Four robots jointly grasping the door of a VW ID.3" class="figure-img">
 <figcaption>
-Large-scale component handling
+Cooperative door removal
 </figcaption>
+</button>
 </figure>
 </div>
+<dialog class="gallery-lightbox" id="gallery-lightbox" aria-labelledby="gallery-lightbox-title" aria-describedby="gallery-lightbox-description">
+<div class="gallery-lightbox-inner">
+<button class="gallery-lightbox-close" type="button" aria-label="Close image view" data-gallery-close="">
+</button>
+<div class="gallery-lightbox-media">
+<p><img src="" alt="" data-gallery-lightbox-image=""></p>
+</div>
+<div class="gallery-lightbox-copy">
+<div class="meta" data-gallery-lightbox-count="">
+
+</div>
+<h3 id="gallery-lightbox-title" data-gallery-lightbox-title="" class="anchored">
+</h3>
+<p id="gallery-lightbox-description" data-gallery-lightbox-description="">
+</p>
+<div class="gallery-lightbox-controls">
+<button type="button" aria-label="Previous image" data-gallery-prev="">
+</button>
+<button type="button" aria-label="Next image" data-gallery-next="">
+</button>
+</div>
+</div>
+</div>
+<p></p></dialog><p></p>
+<script defer="" src="assets/site.js"></script>
 </section>
 <section id="selected-publications" class="level2">
 <h2 class="anchored" data-anchor-id="selected-publications">Selected publications</h2>
 <div class="publication-list">
 <article class="publication-card">
-<img class="publication-image" src="assets/images/publications/pub-01-placeholder.svg" alt="Placeholder image for publication 1">
+<button class="publication-image-button lightbox-trigger" type="button" data-lightbox-group="publications" data-gallery-src="assets/images/publications/pub-01-design-control.png" data-gallery-title="Design and control of flexible handling systems" data-gallery-description="Cooperative object handling using up to eight UR10e robots.">
+<img class="publication-image" src="assets/images/publications/pub-01-design-control.png" alt="Cooperative object handling using up to eight UR10e robots">
+</button>
 <div class="publication-body">
 <div class="meta">
 2025
@@ -322,7 +367,9 @@ Design and control of flexible handling systems based on mobile cooperative mult
 </div>
 </article>
 <article class="publication-card">
-<img class="publication-image" src="assets/images/publications/pub-02-placeholder.svg" alt="Placeholder image for publication 2">
+<button class="publication-image-button lightbox-trigger" type="button" data-lightbox-group="publications" data-gallery-src="assets/images/publications/pub-02-scaling-object-handling.png" data-gallery-title="Scaling Cooperative Mobile Multi-Robot Systems for Object Handling" data-gallery-description="Payload test with a person weighing 75 kg. The experiment studies dynamic load distribution across eight manipulators.">
+<img class="publication-image" src="assets/images/publications/pub-02-scaling-object-handling.png" alt="Payload test with a person on a cooperative object handling setup">
+</button>
 <div class="publication-body">
 <div class="meta">
 2025
@@ -339,7 +386,9 @@ Scaling Cooperative Mobile Multi-Robot Systems for Object Handling
 </div>
 </article>
 <article class="publication-card">
-<img class="publication-image" src="assets/images/publications/pub-03-placeholder.svg" alt="Placeholder image for publication 3">
+<button class="publication-image-button lightbox-trigger" type="button" data-lightbox-group="publications" data-gallery-src="assets/images/publications/pub-03-print-while-drive.png" data-gallery-title="Offline platform trajectory planning for print-while-drive additive manufacturing" data-gallery-description="Given a pre-defined printing trajectory, mobile additive manufacturing trajectory planning algorithms define a platform trajectory. The image shows the test setup using a MiR600 platform and UR10e arm.">
+<img class="publication-image" src="assets/images/publications/pub-03-print-while-drive.png" alt="MiR600 platform and UR10e arm for mobile additive manufacturing trajectory planning">
+</button>
 <div class="publication-body">
 <div class="meta">
 2025
@@ -356,24 +405,9 @@ Lukas Lachmayer, <strong>Tobias Recker</strong>, Hauke Heeren, Pitt Müller, Ann
 </div>
 </article>
 <article class="publication-card">
-<img class="publication-image" src="assets/images/publications/pub-04-placeholder.svg" alt="Placeholder image for publication 4">
-<div class="publication-body">
-<div class="meta">
-2025
-</div>
-<h3 class="anchored">
-Comparison of Global Path Planning Algorithms regarding Multi Mobile Robot Object Transport Requirements
-</h3>
-<p>
-Henrik Lurz, <strong>Tobias Recker</strong>, Annika Raatz. Annals of Scientific Society for Assembly, Handling and Industrial Robotics 2023, Springer, Cham, 2025.
-</p>
-<div class="link-list">
-<p><a href="https://doi.org/10.1007/978-3-031-74010-7_9">DOI</a> <a href="https://www.scopus.com/pages/publications/105001689090?origin=resultslist">Scopus</a></p>
-</div>
-</div>
-</article>
-<article class="publication-card">
-<img class="publication-image" src="assets/images/publications/pub-05-placeholder.svg" alt="Placeholder image for publication 5">
+<button class="publication-image-button lightbox-trigger" type="button" data-lightbox-group="publications" data-gallery-src="assets/images/publications/pub-04-formation-geometries.png" data-gallery-title="Semi-rigid formation geometries for cooperative object transport" data-gallery-description="Illustration of the three transport formations and objects used in this work. For reference, the I-beams shown are 3.3 m long and weigh 625 kg each.">
+<img class="publication-image" src="assets/images/publications/pub-04-formation-geometries.png" alt="Three transport formations and large-scale objects for cooperative object transport">
+</button>
 <div class="publication-body">
 <div class="meta">
 2024
@@ -390,7 +424,9 @@ A Comparative Analysis of Different Semi-Rigid Formation Geometries Regarding Mu
 </div>
 </article>
 <article class="publication-card">
-<img class="publication-image" src="assets/images/publications/pub-06-placeholder.svg" alt="Placeholder image for publication 6">
+<button class="publication-image-button lightbox-trigger" type="button" data-lightbox-group="publications" data-gallery-src="assets/images/publications/pub-05-valet-parking.png" data-gallery-title="Design of a 6 DoF Multi-Robot Platform for Automated Multistory Valet Parking" data-gallery-description="Concept design study of the multi-robot platform. One mobile robot lifts one wheel of the car.">
+<img class="publication-image" src="assets/images/publications/pub-05-valet-parking.png" alt="Concept design study of a mobile robot lifting one wheel of a car">
+</button>
 <div class="publication-body">
 <div class="meta">
 2024
@@ -590,13 +626,14 @@ Construction automation
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

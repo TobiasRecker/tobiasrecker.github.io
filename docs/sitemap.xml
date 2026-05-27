@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://tobiasrecker.github.io/dissertation.html</loc>
-    <lastmod>2026-05-26T11:30:28.000Z</lastmod>
+    <loc>https://tobiasrecker.github.io/research.html</loc>
+    <lastmod>2026-05-27T12:57:08.751Z</lastmod>
   </url>
   <url>
     <loc>https://tobiasrecker.github.io/projects.html</loc>
-    <lastmod>2026-05-26T11:29:58.000Z</lastmod>
+    <lastmod>2026-05-27T14:22:43.342Z</lastmod>
   </url>
   <url>
     <loc>https://tobiasrecker.github.io/index.html</loc>
-    <lastmod>2026-05-26T15:15:49.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://tobiasrecker.github.io/privacy.html</loc>
-    <lastmod>2026-05-26T11:30:54.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://tobiasrecker.github.io/README_UPDATE_v0.2.html</loc>
-    <lastmod>2026-05-26T15:15:33.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://tobiasrecker.github.io/publications.html</loc>
-    <lastmod>2026-05-26T15:15:49.000Z</lastmod>
+    <lastmod>2026-05-27T14:23:10.614Z</lastmod>
   </url>
   <url>
     <loc>https://tobiasrecker.github.io/contact.html</loc>
-    <lastmod>2026-05-26T11:30:54.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://tobiasrecker.github.io/research.html</loc>
-    <lastmod>2026-05-26T15:15:33.000Z</lastmod>
+    <lastmod>2026-05-27T12:27:36.865Z</lastmod>
   </url>
   <url>
     <loc>https://tobiasrecker.github.io/about.html</loc>
-    <lastmod>2026-05-26T15:15:33.000Z</lastmod>
+    <lastmod>2026-05-27T12:27:36.690Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tobiasrecker.github.io/dissertation.html</loc>
+    <lastmod>2026-05-27T12:57:08.839Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tobiasrecker.github.io/privacy.html</loc>
+    <lastmod>2026-05-27T12:27:37.005Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tobiasrecker.github.io/publications.html</loc>
+    <lastmod>2026-05-27T14:23:10.696Z</lastmod>
   </url>
 </urlset>

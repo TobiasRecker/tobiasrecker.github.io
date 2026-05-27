@@ -16,15 +16,17 @@ quarto preview
 quarto render
 ```
 
-The rendered website is written to `_site/`.
+The rendered website is written to `docs/`.
 
 ## Deploy on GitHub Pages
 
 1. Create a repository named `tobiasrecker.github.io` under the GitHub account `TobiasRecker`.
 2. Upload or push the contents of this folder.
-3. In the repository settings, set GitHub Pages to deploy with GitHub Actions.
-4. Push to the `main` branch.
-5. The included workflow `.github/workflows/publish.yml` renders the Quarto site and publishes it to GitHub Pages.
+3. Render the site locally with `quarto render`.
+4. Commit and push the updated source files and rendered `docs/` directory.
+5. In the repository settings, set GitHub Pages to deploy from a branch:
+   - Branch: `main`
+   - Folder: `/docs`
 
 ## Privacy-oriented choices
 

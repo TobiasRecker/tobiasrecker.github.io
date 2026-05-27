@@ -1,38 +1,45 @@
 [
   {
-    "objectID": "dissertation.html",
-    "href": "dissertation.html",
-    "title": "Dissertation",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "Dissertation\n\n\n\n\nA scalable CMMRS framework for collaborative object handling and assembly tasks in industrial settings."
+    "text": "Research\n\n\n\n\nMy research focuses on tightly coupled cooperative mobile multi-robot systems that can scale with task size. In these systems, several robots handle a common object and coordinate motion in scenarios that cannot be solved by a single robot alone."
   },
   {
-    "objectID": "dissertation.html#summary",
-    "href": "dissertation.html#summary",
-    "title": "Dissertation",
-    "section": "Summary",
-    "text": "Summary\nMy dissertation investigates the design, development, and implementation of a scalable Cooperative Mobile Multi-Robot System (CMMRS) framework for collaborative object handling and assembly tasks in industrial settings.\nThe work develops a hardware-agnostic control structure that allows multiple mobile robots and mobile manipulators to operate either independently or cooperatively. It combines formation path planning, decentralized control, manipulator control, and whole-body coordination to improve scalability and adaptability in industrial automation.\nThe system was experimentally evaluated across object transport, cooperative object handling, and assembly-related scenarios, including configurations with up to eight robots."
+    "objectID": "research.html#core-questions",
+    "href": "research.html#core-questions",
+    "title": "Research",
+    "section": "Core questions",
+    "text": "Core questions\n\nHow can multiple mobile robots handle a common object without relying on highly specialized hardware?\nHow can cooperative robot systems scale from small to large configurations while remaining easy to program?\nHow can mobile manipulators handle large-scale components despite localization errors, communication latency, and kinematic overdetermination?\nHow can robotic automation become more adaptable for changing products, component sizes, and production environments?\nHow can reusable robotic teams improve utilization when the task spectrum is too broad for dedicated special-purpose machines?"
   },
   {
-    "objectID": "dissertation.html#core-contributions",
-    "href": "dissertation.html#core-contributions",
-    "title": "Dissertation",
-    "section": "Core contributions",
-    "text": "Core contributions\n::: {.card-grid two} ::: {.card} ### Scalable CMMRS framework A framework for scaling and adapting cooperative mobile multi-robot systems to changing product and process parameters. :::\n\nFormation path planning and control\nPath planning and control approaches for cooperative object transport with nonholonomic mobile platforms.\n\n\nCooperative object handling\nControl methods for multiple mobile manipulators that jointly grasp and move large-scale components.\n\n\nRobust system integration\nDesign choices that reduce sensitivity to communication latency, localization uncertainty, and hardware-specific features.\n\n:::"
+    "objectID": "research.html#research-themes",
+    "href": "research.html#research-themes",
+    "title": "Research",
+    "section": "Research themes",
+    "text": "Research themes\n\n\n\nCooperative mobile multi-robot systems\n\n\nI investigate cooperative mobile multi-robot systems in which several robots work on the same physical object. This creates strong spatial and temporal dependencies between the robots and introduces challenges such as synchronization, localization accuracy, communication latency, and kinematic overdetermination.\n\n\n\n\nScalable control and path planning\n\n\nA central goal of my work is to make cooperative robot systems scalable. Adding or removing robots should not require redesigning the entire system. My research combines formation path planning, decentralized control, and hardware-independent system architectures.\n\n\n\n\nMobile manipulation for industrial automation\n\n\nI work on mobile manipulators for large-scale object transport, handling, and assembly. These systems are particularly relevant when components are too large, too heavy, or too variable for conventional single-robot solutions.\n\n\n\n\nConstruction automation and mobile additive manufacturing\n\n\nBeyond industrial handling and assembly, I work on mobile robotic systems for construction automation, including mobile additive manufacturing and print-while-drive processes."
   },
   {
-    "objectID": "dissertation.html#application-domains",
-    "href": "dissertation.html#application-domains",
-    "title": "Dissertation",
-    "section": "Application domains",
-    "text": "Application domains\n\n\n\n\n\n\n\nDomain\nDescription\n\n\n\n\nObject transport\nLarge-scale objects are transported by several cooperating mobile platforms.\n\n\nObject handling\nMultiple manipulators move one object in a coordinated way, including spatial motion.\n\n\nCooperative assembly\nHandling-related tasks with higher accuracy requirements and contact forces."
+    "objectID": "research.html#approach",
+    "href": "research.html#approach",
+    "title": "Research",
+    "section": "Approach",
+    "text": "Approach\n\n\n\nSystem perspective\n\n\nI am interested in the complete robotic system, including mobile platforms, manipulators, tools, sensors, controllers, path planners, communication, and experimental validation. The goal is not only to design algorithms, but to make them work on real robotic hardware.\n\n\n\n\nExperimental validation\n\n\nMy work emphasizes physical experiments with mobile robots and mobile manipulators. This includes cooperative object transport, cooperative object handling, and mobile additive manufacturing in laboratory and production-like environments."
   },
   {
-    "objectID": "dissertation.html#related-projects",
-    "href": "dissertation.html#related-projects",
-    "title": "Dissertation",
-    "section": "Related projects",
-    "text": "Related projects\n\n\n  ▶ \n\n\nDissertation demonstrator\n\n\nCooperative object transport\n\n\n\n\n  ▶ \n\n\nDissertation demonstrator\n\n\nCooperative object handling"
+    "objectID": "research.html#methods-and-topics",
+    "href": "research.html#methods-and-topics",
+    "title": "Research",
+    "section": "Methods and topics",
+    "text": "Methods and topics\n\n\nMobile manipulation\n\n\nCooperative object transport\n\n\nCooperative object handling\n\n\nTightly coupled cooperation\n\n\nMulti-robot control\n\n\nFormation control\n\n\nPath planning\n\n\nTrajectory planning\n\n\nWhole-body control\n\n\nAdmittance control\n\n\nRobot learning\n\n\nHardware and system integration\n\n\nAutomation for construction"
+  },
+  {
+    "objectID": "research.html#representative-outputs",
+    "href": "research.html#representative-outputs",
+    "title": "Research",
+    "section": "Representative outputs",
+    "text": "Representative outputs\n\n\n\nDissertation\n\n\nA scalable cooperative mobile multi-robot framework for handling and assembly of large-scale components.\n\n\nRead summary\n\n\n\n\nProjects\n\n\nDemonstrators for cooperative object transport, object handling with mobile manipulators, and print-while-drive additive manufacturing.\n\n\nView projects\n\n\n\n\nPublications\n\n\nSelected publications on cooperative mobile multi-robot systems, mobile manipulation, formation path planning, and construction automation.\n\n\nView publications"
   },
   {
     "objectID": "projects.html",
@@ -63,13 +70,6 @@
     "text": "Print-while-drive additive manufacturing\nThis project investigates trajectory planning for mobile manipulators that perform additive manufacturing while the mobile platform is moving.\nInstead of separating driving and printing into discrete steps, the robot continuously coordinates platform motion and manipulator motion to extend the reachable workspace and enable large-scale additive manufacturing processes.\nKey aspects\n\nMobile additive manufacturing\nOffline platform trajectory planning\nCoordinated platform-manipulator motion\nConstruction automation\nLarge-scale robotic fabrication\n\n\nVideo CASE 2025 paper Related publications"
   },
   {
-    "objectID": "projects.html#privacy-friendly-video-handling",
-    "href": "projects.html#privacy-friendly-video-handling",
-    "title": "Projects",
-    "section": "Privacy-friendly video handling",
-    "text": "Privacy-friendly video handling\nThe videos above are not embedded. Each project uses a locally hosted thumbnail and opens YouTube only after clicking the play button."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
@@ -95,14 +95,14 @@
     "href": "index.html#project-gallery",
     "title": "Home",
     "section": "Project gallery",
-    "text": "Project gallery\n\nA visual overview of selected demonstrators and experimental setups. The last images are placeholders and can be replaced once the final project photos are selected.\n\n\n\n\n\nCooperative object handling\n\n\n\n\n\nCooperative object transport\n\n\n\n\n\nMobile additive manufacturing\n\n\n\n\n\nManipulator detail\n\n\n\n\n\nExperimental setup\n\n\n\n\n\nLarge-scale component handling"
+    "text": "Project gallery\n\nA visual overview of selected demonstrators and experimental setups.\n\n\n\n\n\n\nHigh-payload cooperative handling\n\n\n\n\n\n\n\nCooperative handling demonstrator\n\n\n\n\n\n\n\nMulti-axis material testing\n\n\n\n\n\n\n\nScalable repair for large drives\n\n\n\n\n\n\n\nScalable automotive repair\n\n\n\n\n\n\n\nCooperative door removal"
   },
   {
     "objectID": "index.html#selected-publications",
     "href": "index.html#selected-publications",
     "title": "Home",
     "section": "Selected publications",
-    "text": "Selected publications\n\n\n\n\n\n2025\n\n\nDesign and control of flexible handling systems based on mobile cooperative multi-robot-systems\n\n\nTobias Recker, Annika Raatz. CIRP Annals, Volume 74, Issue 1, pp. 25-29, 2025.\n\n\nDOI Scopus\n\n\n\n\n\n\n\n2025\n\n\nScaling Cooperative Mobile Multi-Robot Systems for Object Handling\n\n\nTobias Recker, Lukas Lachmayer, Annika Raatz. 2025 IEEE 21st International Conference on Automation Science and Engineering (CASE), Los Angeles, CA, USA, pp. 2562-2567.\n\n\nDOI Video Scopus\n\n\n\n\n\n\n\n2025\n\n\nOffline platform trajectory planning for print-while-drive additive manufacturing using mobile manipulators\n\n\nLukas Lachmayer, Tobias Recker, Hauke Heeren, Pitt Müller, Annika Raatz. 2025 IEEE 21st International Conference on Automation Science and Engineering (CASE), Los Angeles, CA, USA, pp. 1411-1416.\n\n\nDOI Video Scopus\n\n\n\n\n\n\n\n2025\n\n\nComparison of Global Path Planning Algorithms regarding Multi Mobile Robot Object Transport Requirements\n\n\nHenrik Lurz, Tobias Recker, Annika Raatz. Annals of Scientific Society for Assembly, Handling and Industrial Robotics 2023, Springer, Cham, 2025.\n\n\nDOI Scopus\n\n\n\n\n\n\n\n2024\n\n\nA Comparative Analysis of Different Semi-Rigid Formation Geometries Regarding Multi-Robot Cooperative Object Transport for Large-Scale Objects\n\n\nTobias Recker, Henrik Lurz, Lukas Lachmayer, Annika Raatz. IEEE International Conference on Automation Science and Engineering (CASE), 2024.\n\n\nScopus\n\n\n\n\n\n\n\n2024\n\n\nDesign of a 6 DoF Multi-Robot Platform for Automated Multistory Valet Parking\n\n\nMoritz Springer, Tobias Recker, David Schütz, Annika Raatz. 2024 IEEE International Conference on Cybernetics and Intelligent Systems and IEEE International Conference on Robotics, Automation and Mechatronics, Hangzhou, China, pp. 290-296.\n\n\nDOI Scopus\n\n\n\n\n\n\n\nDigital Concrete 2024\n\n\nA Spatial Multi-layer Control Concept for Strand Geometry Control in Robot-Based Additive Manufacturing Processes\n\n\nLukas Lachmayer, Jan Quantz, Hauke Heeren, Tobias Recker, Ronald Dörrie, Harald Kloft, Annika Raatz. RILEM Bookseries, Digital Concrete 2024.\n\n\nDOI Scopus\n\n\n\n\n\n\n\n2024\n\n\nInline image-based reinforcement detection for concrete additive manufacturing processes using a convolutional neural network\n\n\nLukas Lachmayer, Leon Dittrich, Tobias Recker, Ronald Dörrie, Harald Kloft, Annika Raatz. Proceedings of the International Symposium on Automation and Robotics in Construction (ISARC), 2024.\n\n\nDOI Scopus\n\n\n\n\n\n\n\n2023\n\n\nTime-Efficient Path Planning for Semi-Rigid Multi-Robot Formations\n\n\nTobias Recker, Sebastian Prophet, Annika Raatz. 2023 IEEE 19th International Conference on Automation Science and Engineering (CASE), Auckland, New Zealand, pp. 1-7.\n\n\nDOI Scopus\n\n\n\n\n\n\n\n2022\n\n\nAdditive Manufacturing using mobile robots: Opportunities and challenges for building construction\n\n\nKathrin Dörfler, Gido Dielemans, Lukas Lachmayer, Tobias Recker, Annika Raatz, Dirk Lowke, Markus Gerke. Cement and Concrete Research, Vol. 158, 106772, 2022.\n\n\nDOI Scopus\n\n\n\n\n\n\n\n2022\n\n\nSmooth Spline-based Trajectory Planning for Semi-Rigid Multi-Robot Formations\n\n\nTobias Recker, Henrik Lurz, Annika Raatz. 2022 IEEE 18th International Conference on Automation Science and Engineering (CASE), pp. 1417-1422.\n\n\nDOI Scopus\n\n\n\n\n\nOpen publication overview"
+    "text": "Selected publications\n\n\n\n\n\n\n\n2025\n\n\nDesign and control of flexible handling systems based on mobile cooperative multi-robot-systems\n\n\nTobias Recker, Annika Raatz. CIRP Annals, Volume 74, Issue 1, pp. 25-29, 2025.\n\n\nDOI Scopus\n\n\n\n\n\n\n\n\n\n2025\n\n\nScaling Cooperative Mobile Multi-Robot Systems for Object Handling\n\n\nTobias Recker, Lukas Lachmayer, Annika Raatz. 2025 IEEE 21st International Conference on Automation Science and Engineering (CASE), Los Angeles, CA, USA, pp. 2562-2567.\n\n\nDOI Video Scopus\n\n\n\n\n\n\n\n\n\n2025\n\n\nOffline platform trajectory planning for print-while-drive additive manufacturing using mobile manipulators\n\n\nLukas Lachmayer, Tobias Recker, Hauke Heeren, Pitt Müller, Annika Raatz. 2025 IEEE 21st International Conference on Automation Science and Engineering (CASE), Los Angeles, CA, USA, pp. 1411-1416.\n\n\nDOI Video Scopus\n\n\n\n\n\n\n\n\n\n2024\n\n\nA Comparative Analysis of Different Semi-Rigid Formation Geometries Regarding Multi-Robot Cooperative Object Transport for Large-Scale Objects\n\n\nTobias Recker, Henrik Lurz, Lukas Lachmayer, Annika Raatz. IEEE International Conference on Automation Science and Engineering (CASE), 2024.\n\n\nScopus\n\n\n\n\n\n\n\n\n\n2024\n\n\nDesign of a 6 DoF Multi-Robot Platform for Automated Multistory Valet Parking\n\n\nMoritz Springer, Tobias Recker, David Schütz, Annika Raatz. 2024 IEEE International Conference on Cybernetics and Intelligent Systems and IEEE International Conference on Robotics, Automation and Mechatronics, Hangzhou, China, pp. 290-296.\n\n\nDOI Scopus\n\n\n\n\n\n\n\nDigital Concrete 2024\n\n\nA Spatial Multi-layer Control Concept for Strand Geometry Control in Robot-Based Additive Manufacturing Processes\n\n\nLukas Lachmayer, Jan Quantz, Hauke Heeren, Tobias Recker, Ronald Dörrie, Harald Kloft, Annika Raatz. RILEM Bookseries, Digital Concrete 2024.\n\n\nDOI Scopus\n\n\n\n\n\n\n\n2024\n\n\nInline image-based reinforcement detection for concrete additive manufacturing processes using a convolutional neural network\n\n\nLukas Lachmayer, Leon Dittrich, Tobias Recker, Ronald Dörrie, Harald Kloft, Annika Raatz. Proceedings of the International Symposium on Automation and Robotics in Construction (ISARC), 2024.\n\n\nDOI Scopus\n\n\n\n\n\n\n\n2023\n\n\nTime-Efficient Path Planning for Semi-Rigid Multi-Robot Formations\n\n\nTobias Recker, Sebastian Prophet, Annika Raatz. 2023 IEEE 19th International Conference on Automation Science and Engineering (CASE), Auckland, New Zealand, pp. 1-7.\n\n\nDOI Scopus\n\n\n\n\n\n\n\n2022\n\n\nAdditive Manufacturing using mobile robots: Opportunities and challenges for building construction\n\n\nKathrin Dörfler, Gido Dielemans, Lukas Lachmayer, Tobias Recker, Annika Raatz, Dirk Lowke, Markus Gerke. Cement and Concrete Research, Vol. 158, 106772, 2022.\n\n\nDOI Scopus\n\n\n\n\n\n\n\n2022\n\n\nSmooth Spline-based Trajectory Planning for Semi-Rigid Multi-Robot Formations\n\n\nTobias Recker, Henrik Lurz, Annika Raatz. 2022 IEEE 18th International Conference on Automation Science and Engineering (CASE), pp. 1417-1422.\n\n\nDOI Scopus\n\n\n\n\n\nOpen publication overview"
   },
   {
     "objectID": "index.html#dissertation",
@@ -117,55 +117,6 @@
     "title": "Home",
     "section": "Research keywords",
     "text": "Research keywords\n\n\nMobile manipulation\n\n\nCooperative multi-robot systems\n\n\nTightly coupled cooperation\n\n\nFormation control\n\n\nTrajectory planning\n\n\nRobot learning\n\n\nHardware and system integration\n\n\nConstruction automation"
-  },
-  {
-    "objectID": "privacy.html",
-    "href": "privacy.html",
-    "title": "Privacy",
-    "section": "",
-    "text": "Privacy\n\n\n\n\nThis site is designed as a small, static, privacy-friendly research profile."
-  },
-  {
-    "objectID": "privacy.html#technical-choices",
-    "href": "privacy.html#technical-choices",
-    "title": "Privacy",
-    "section": "Technical choices",
-    "text": "Technical choices\n\nNo analytics are included.\nNo cookies are intentionally set by this website.\nImages and the dissertation PDF are hosted locally with the site.\nYouTube videos are not embedded. Project pages use local thumbnails and open YouTube only after an explicit click.\nNo external fonts are loaded."
-  },
-  {
-    "objectID": "privacy.html#external-links",
-    "href": "privacy.html#external-links",
-    "title": "Privacy",
-    "section": "External links",
-    "text": "External links\nThe site links to external services such as GitHub, ORCID, LinkedIn, Scopus, the institute website, DOI pages, and YouTube. These external sites may process data according to their own privacy policies."
-  },
-  {
-    "objectID": "README_UPDATE_v0.2.html",
-    "href": "README_UPDATE_v0.2.html",
-    "title": "v0.2 update",
-    "section": "",
-    "text": "v0.2 update\nThis update changes the homepage wording, adds a project gallery, expands selected publications, and adds publication image placeholders.\nApply in your local repository, then run:\nquarto render\ngit add .\ngit commit -m \"Update homepage text and publication layout\"\ngit push\nGitHub Pages should remain configured as:\nSource: Deploy from a branch\nBranch: main\nFolder: /docs"
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Publications\n\n\n\n\nA curated list of publications that represent my research on cooperative mobile multi-robot systems, mobile manipulation, trajectory planning, and construction automation."
-  },
-  {
-    "objectID": "publications.html#profiles",
-    "href": "publications.html#profiles",
-    "title": "Publications",
-    "section": "Profiles",
-    "text": "Profiles\n\nScopus profile ORCID Institute publication list"
-  },
-  {
-    "objectID": "publications.html#bibtex",
-    "href": "publications.html#bibtex",
-    "title": "Publications",
-    "section": "BibTeX",
-    "text": "BibTeX\nA small starter BibTeX file is included in the website repository at assets/data/references.bib."
   },
   {
     "objectID": "contact.html",
@@ -189,48 +140,6 @@
     "text": "Open to\n\n\nResearch collaborations\nCooperative mobile robots, mobile manipulation, multi-robot control, and construction automation.\n\n\nTalks and discussions\nResearch talks, project discussions, and exchange on industrial mobile robot systems.\n\n\nStudent projects\nTopics related to mobile manipulation, path planning, control, and system integration."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Research\n\n\n\n\nMy research focuses on tightly coupled cooperative mobile multi-robot systems that can scale with task size. In these systems, several robots handle a common object and coordinate motion in scenarios that cannot be solved by a single robot alone."
-  },
-  {
-    "objectID": "research.html#core-questions",
-    "href": "research.html#core-questions",
-    "title": "Research",
-    "section": "Core questions",
-    "text": "Core questions\n\nHow can multiple mobile robots handle a common object without relying on highly specialized hardware?\nHow can cooperative robot systems scale from small to large configurations while remaining easy to program?\nHow can mobile manipulators handle large-scale components despite localization errors, communication latency, and kinematic overdetermination?\nHow can robotic automation become more adaptable for changing products, component sizes, and production environments?\nHow can reusable robotic teams improve utilization when the task spectrum is too broad for dedicated special-purpose machines?"
-  },
-  {
-    "objectID": "research.html#research-themes",
-    "href": "research.html#research-themes",
-    "title": "Research",
-    "section": "Research themes",
-    "text": "Research themes\n::: {.card-grid two} ::: {.card} ### Cooperative mobile multi-robot systems\nI investigate cooperative mobile multi-robot systems in which several robots work on the same physical object. This creates strong spatial and temporal dependencies between the robots and introduces challenges such as synchronization, localization accuracy, communication latency, and kinematic overdetermination. :::\n\nScalable control and path planning\nA central goal of my work is to make cooperative robot systems scalable. Adding or removing robots should not require redesigning the entire system. My research combines formation path planning, decentralized control, and hardware-independent system architectures.\n\n\nMobile manipulation for industrial automation\nI work on mobile manipulators for large-scale object transport, handling, and assembly. These systems are particularly relevant when components are too large, too heavy, or too variable for conventional single-robot solutions.\n\n\nConstruction automation and mobile additive manufacturing\nBeyond industrial handling and assembly, I work on mobile robotic systems for construction automation, including mobile additive manufacturing and print-while-drive processes.\n\n:::"
-  },
-  {
-    "objectID": "research.html#approach",
-    "href": "research.html#approach",
-    "title": "Research",
-    "section": "Approach",
-    "text": "Approach\n\n\nSystem perspective\nI am interested in the complete robotic system, including mobile platforms, manipulators, tools, sensors, controllers, path planners, communication, and experimental validation. The goal is not only to design algorithms, but to make them work on real robotic hardware.\n\n\nExperimental validation\nMy work emphasizes physical experiments with mobile robots and mobile manipulators. This includes cooperative object transport, cooperative object handling, and mobile additive manufacturing in laboratory and production-like environments."
-  },
-  {
-    "objectID": "research.html#methods-and-topics",
-    "href": "research.html#methods-and-topics",
-    "title": "Research",
-    "section": "Methods and topics",
-    "text": "Methods and topics\n\n\nMobile manipulation\n\n\nCooperative object transport\n\n\nCooperative object handling\n\n\nTightly coupled cooperation\n\n\nMulti-robot control\n\n\nFormation control\n\n\nPath planning\n\n\nTrajectory planning\n\n\nWhole-body control\n\n\nAdmittance control\n\n\nRobot learning\n\n\nHardware and system integration\n\n\nAutomation for construction"
-  },
-  {
-    "objectID": "research.html#representative-outputs",
-    "href": "research.html#representative-outputs",
-    "title": "Research",
-    "section": "Representative outputs",
-    "text": "Representative outputs\n\n\nDissertation\nA scalable cooperative mobile multi-robot framework for handling and assembly of large-scale components.\n\nRead summary\n\n\n\nProjects\nDemonstrators for cooperative object transport, object handling with mobile manipulators, and print-while-drive additive manufacturing.\n\nView projects\n\n\n\nPublications\nSelected publications on cooperative mobile multi-robot systems, mobile manipulation, formation path planning, and construction automation.\n\nView publications"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -250,5 +159,82 @@
     "title": "About",
     "section": "Links",
     "text": "Links\n\nContact GitHub ORCID LinkedIn Scopus Institute profile"
+  },
+  {
+    "objectID": "dissertation.html",
+    "href": "dissertation.html",
+    "title": "Dissertation",
+    "section": "",
+    "text": "Dissertation\n\n\n\n\nA scalable CMMRS framework for collaborative object handling and assembly tasks in industrial settings."
+  },
+  {
+    "objectID": "dissertation.html#summary",
+    "href": "dissertation.html#summary",
+    "title": "Dissertation",
+    "section": "Summary",
+    "text": "Summary\nMy dissertation investigates the design, development, and implementation of a scalable Cooperative Mobile Multi-Robot System (CMMRS) framework for collaborative object handling and assembly tasks in industrial settings.\nThe work develops a hardware-agnostic control structure that allows multiple mobile robots and mobile manipulators to operate either independently or cooperatively. It combines formation path planning, decentralized control, manipulator control, and whole-body coordination to improve scalability and adaptability in industrial automation.\nThe system was experimentally evaluated across object transport, cooperative object handling, and assembly-related scenarios, including configurations with up to eight robots."
+  },
+  {
+    "objectID": "dissertation.html#core-contributions",
+    "href": "dissertation.html#core-contributions",
+    "title": "Dissertation",
+    "section": "Core contributions",
+    "text": "Core contributions\n\n\n\nScalable CMMRS framework\n\n\nA framework for scaling and adapting cooperative mobile multi-robot systems to changing product and process parameters.\n\n\n\n\nFormation path planning and control\n\n\nPath planning and control approaches for cooperative object transport with nonholonomic mobile platforms.\n\n\n\n\nCooperative object handling\n\n\nControl methods for multiple mobile manipulators that jointly grasp and move large-scale components.\n\n\n\n\nRobust system integration\n\n\nDesign choices that reduce sensitivity to communication latency, localization uncertainty, and hardware-specific features."
+  },
+  {
+    "objectID": "dissertation.html#application-domains",
+    "href": "dissertation.html#application-domains",
+    "title": "Dissertation",
+    "section": "Application domains",
+    "text": "Application domains\n\n\n\n\n\n\n\nDomain\nDescription\n\n\n\n\nObject transport\nLarge-scale objects are transported by several cooperating mobile platforms.\n\n\nObject handling\nMultiple manipulators move one object in a coordinated way, including spatial motion.\n\n\nCooperative assembly\nHandling-related tasks with higher accuracy requirements and contact forces."
+  },
+  {
+    "objectID": "dissertation.html#related-projects",
+    "href": "dissertation.html#related-projects",
+    "title": "Dissertation",
+    "section": "Related projects",
+    "text": "Related projects\n\n\n  ▶ \n\n\nDissertation demonstrator\n\n\nCooperative object transport\n\n\n\n\n  ▶ \n\n\nDissertation demonstrator\n\n\nCooperative object handling"
+  },
+  {
+    "objectID": "privacy.html",
+    "href": "privacy.html",
+    "title": "Privacy",
+    "section": "",
+    "text": "Privacy\n\n\n\n\nThis site is designed as a small, static, privacy-friendly research profile."
+  },
+  {
+    "objectID": "privacy.html#technical-choices",
+    "href": "privacy.html#technical-choices",
+    "title": "Privacy",
+    "section": "Technical choices",
+    "text": "Technical choices\n\nNo analytics are included.\nNo cookies are intentionally set by this website.\nImages and the dissertation PDF are hosted locally with the site.\nYouTube videos are not embedded. Project pages use local thumbnails and open YouTube only after an explicit click.\nNo external fonts are loaded."
+  },
+  {
+    "objectID": "privacy.html#external-links",
+    "href": "privacy.html#external-links",
+    "title": "Privacy",
+    "section": "External links",
+    "text": "External links\nThe site links to external services such as GitHub, ORCID, LinkedIn, Scopus, the institute website, DOI pages, and YouTube. These external sites may process data according to their own privacy policies."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Publications\n\n\n\n\nA curated list of publications that represent my research on cooperative mobile multi-robot systems, mobile manipulation, trajectory planning, and construction automation."
+  },
+  {
+    "objectID": "publications.html#profiles",
+    "href": "publications.html#profiles",
+    "title": "Publications",
+    "section": "Profiles",
+    "text": "Profiles\n\nScopus profile ORCID Institute publication list"
+  },
+  {
+    "objectID": "publications.html#bibtex",
+    "href": "publications.html#bibtex",
+    "title": "Publications",
+    "section": "BibTeX",
+    "text": "BibTeX\nA small starter BibTeX file is included in the website repository at assets/data/references.bib."
   }
 ]

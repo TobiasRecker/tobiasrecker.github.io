@@ -10,14 +10,14 @@ title: "Dissertation"
 <p class="lead">A scalable CMMRS framework for collaborative object handling and assembly tasks in industrial settings.</p>
 </div>
 
-::: {.feature}
-**Status:** submitted and defended · **Degree:** Dr.-Ing. · **Year:** 2025 · **ISBN:** 978-3-69030-108-4
+<div class="feature">
+<p><strong>Status:</strong> submitted and defended · <strong>Degree:</strong> Dr.-Ing. · <strong>Year:</strong> 2025 · <strong>ISBN:</strong> 978-3-69030-108-4</p>
 
 <div class="button-row">
 <a class="button primary" href="assets/pdfs/recker-dissertation-2025.pdf">Download dissertation PDF</a>
 <a class="button" href="https://www.kulturkaufhaus.de/en/detail/ISBN-9783690301084/Recker-Tobias/Scaling-of-Cooperative-Mobile-Multi-Robot-Systems-for-Handling-and-Assembly-of-Large-Scale-Components">Book version</a>
 </div>
-:::
+</div>
 
 ## Summary
 
@@ -29,27 +29,27 @@ The system was experimentally evaluated across object transport, cooperative obj
 
 ## Core contributions
 
-::: {.card-grid two}
-::: {.card}
-### Scalable CMMRS framework
-A framework for scaling and adapting cooperative mobile multi-robot systems to changing product and process parameters.
-:::
+<div class="card-grid two">
+<article class="card">
+<h3>Scalable CMMRS framework</h3>
+<p>A framework for scaling and adapting cooperative mobile multi-robot systems to changing product and process parameters.</p>
+</article>
 
-::: {.card}
-### Formation path planning and control
-Path planning and control approaches for cooperative object transport with nonholonomic mobile platforms.
-:::
+<article class="card">
+<h3>Formation path planning and control</h3>
+<p>Path planning and control approaches for cooperative object transport with nonholonomic mobile platforms.</p>
+</article>
 
-::: {.card}
-### Cooperative object handling
-Control methods for multiple mobile manipulators that jointly grasp and move large-scale components.
-:::
+<article class="card">
+<h3>Cooperative object handling</h3>
+<p>Control methods for multiple mobile manipulators that jointly grasp and move large-scale components.</p>
+</article>
 
-::: {.card}
-### Robust system integration
-Design choices that reduce sensitivity to communication latency, localization uncertainty, and hardware-specific features.
-:::
-:::
+<article class="card">
+<h3>Robust system integration</h3>
+<p>Design choices that reduce sensitivity to communication latency, localization uncertainty, and hardware-specific features.</p>
+</article>
+</div>
 
 ## Application domains
 
@@ -61,26 +61,26 @@ Design choices that reduce sensitivity to communication latency, localization un
 
 ## Related projects
 
-::: {.card-grid}
-::: {.project-card}
+<div class="card-grid">
+<article class="project-card">
 <a class="video-thumb" href="https://www.youtube.com/watch?v=f0-cd06wfmM" target="_blank" rel="noopener">
 <img src="assets/images/thumb-object-transport.jpg" alt="Cooperative object transport project thumbnail">
 <span class="play-button">▶</span>
 </a>
 <div class="project-card-body">
 <div class="meta">Dissertation demonstrator</div>
-### Cooperative object transport
+<h3>Cooperative object transport</h3>
 </div>
-:::
+</article>
 
-::: {.project-card}
+<article class="project-card">
 <a class="video-thumb" href="https://www.youtube.com/watch?v=7jzTUw5pK40" target="_blank" rel="noopener">
 <img src="assets/images/thumb-object-handling.jpg" alt="Cooperative object handling project thumbnail">
 <span class="play-button">▶</span>
 </a>
 <div class="project-card-body">
 <div class="meta">Dissertation demonstrator</div>
-### Cooperative object handling
+<h3>Cooperative object handling</h3>
 </div>
-:::
-:::
+</article>
+</div>

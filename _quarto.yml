@@ -1,8 +1,11 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
   resources:
     - assets/**
+    - robots.txt
 
 website:
   title: "Tobias Recker"

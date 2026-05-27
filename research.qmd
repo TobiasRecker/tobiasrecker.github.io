@@ -20,47 +20,41 @@ title: "Research"
 
 ## Research themes
 
-::: {.card-grid two}
-::: {.card}
-### Cooperative mobile multi-robot systems
+<div class="card-grid two">
+<article class="card">
+<h3>Cooperative mobile multi-robot systems</h3>
+<p>I investigate cooperative mobile multi-robot systems in which several robots work on the same physical object. This creates strong spatial and temporal dependencies between the robots and introduces challenges such as synchronization, localization accuracy, communication latency, and kinematic overdetermination.</p>
+</article>
 
-I investigate cooperative mobile multi-robot systems in which several robots work on the same physical object. This creates strong spatial and temporal dependencies between the robots and introduces challenges such as synchronization, localization accuracy, communication latency, and kinematic overdetermination.
-:::
+<article class="card">
+<h3>Scalable control and path planning</h3>
+<p>A central goal of my work is to make cooperative robot systems scalable. Adding or removing robots should not require redesigning the entire system. My research combines formation path planning, decentralized control, and hardware-independent system architectures.</p>
+</article>
 
-::: {.card}
-### Scalable control and path planning
+<article class="card">
+<h3>Mobile manipulation for industrial automation</h3>
+<p>I work on mobile manipulators for large-scale object transport, handling, and assembly. These systems are particularly relevant when components are too large, too heavy, or too variable for conventional single-robot solutions.</p>
+</article>
 
-A central goal of my work is to make cooperative robot systems scalable. Adding or removing robots should not require redesigning the entire system. My research combines formation path planning, decentralized control, and hardware-independent system architectures.
-:::
-
-::: {.card}
-### Mobile manipulation for industrial automation
-
-I work on mobile manipulators for large-scale object transport, handling, and assembly. These systems are particularly relevant when components are too large, too heavy, or too variable for conventional single-robot solutions.
-:::
-
-::: {.card}
-### Construction automation and mobile additive manufacturing
-
-Beyond industrial handling and assembly, I work on mobile robotic systems for construction automation, including mobile additive manufacturing and print-while-drive processes.
-:::
-:::
+<article class="card">
+<h3>Construction automation and mobile additive manufacturing</h3>
+<p>Beyond industrial handling and assembly, I work on mobile robotic systems for construction automation, including mobile additive manufacturing and print-while-drive processes.</p>
+</article>
+</div>
 
 ## Approach
 
-::: {.split}
-::: {.info-card}
-### System perspective
+<div class="split">
+<article class="info-card">
+<h3>System perspective</h3>
+<p>I am interested in the complete robotic system, including mobile platforms, manipulators, tools, sensors, controllers, path planners, communication, and experimental validation. The goal is not only to design algorithms, but to make them work on real robotic hardware.</p>
+</article>
 
-I am interested in the complete robotic system, including mobile platforms, manipulators, tools, sensors, controllers, path planners, communication, and experimental validation. The goal is not only to design algorithms, but to make them work on real robotic hardware.
-:::
-
-::: {.info-card}
-### Experimental validation
-
-My work emphasizes physical experiments with mobile robots and mobile manipulators. This includes cooperative object transport, cooperative object handling, and mobile additive manufacturing in laboratory and production-like environments.
-:::
-:::
+<article class="info-card">
+<h3>Experimental validation</h3>
+<p>My work emphasizes physical experiments with mobile robots and mobile manipulators. This includes cooperative object transport, cooperative object handling, and mobile additive manufacturing in laboratory and production-like environments.</p>
+</article>
+</div>
 
 ## Methods and topics
 
@@ -82,28 +76,22 @@ My work emphasizes physical experiments with mobile robots and mobile manipulato
 
 ## Representative outputs
 
-::: {.card-grid}
-::: {.card}
-### Dissertation
-
-A scalable cooperative mobile multi-robot framework for handling and assembly of large-scale components.
-
+<div class="card-grid">
+<article class="card">
+<h3>Dissertation</h3>
+<p>A scalable cooperative mobile multi-robot framework for handling and assembly of large-scale components.</p>
 <div class="link-list"><a href="dissertation.html">Read summary</a></div>
-:::
+</article>
 
-::: {.card}
-### Projects
-
-Demonstrators for cooperative object transport, object handling with mobile manipulators, and print-while-drive additive manufacturing.
-
+<article class="card">
+<h3>Projects</h3>
+<p>Demonstrators for cooperative object transport, object handling with mobile manipulators, and print-while-drive additive manufacturing.</p>
 <div class="link-list"><a href="projects.html">View projects</a></div>
-:::
+</article>
 
-::: {.card}
-### Publications
-
-Selected publications on cooperative mobile multi-robot systems, mobile manipulation, formation path planning, and construction automation.
-
+<article class="card">
+<h3>Publications</h3>
+<p>Selected publications on cooperative mobile multi-robot systems, mobile manipulation, formation path planning, and construction automation.</p>
 <div class="link-list"><a href="publications.html">View publications</a></div>
-:::
-:::
+</article>
+</div>

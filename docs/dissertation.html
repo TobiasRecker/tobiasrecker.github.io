@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Dissertation – Tobias Recker</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -36,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dba2b85ffc589276533e8dc0679c755b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b624285362a68ad152de80befe92b0b8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -86,7 +89,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/favicon.svg" alt="" class="navbar-logo">
+    <img src="./assets/favicon.svg" alt="" class="navbar-logo light-content">
+    <img src="./assets/favicon.svg" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Tobias Recker</span>
@@ -183,7 +187,9 @@ A scalable CMMRS framework for collaborative object handling and assembly tasks 
 </section>
 </div>
 <div class="feature">
-<p><strong>Status:</strong> submitted and defended · <strong>Degree:</strong> Dr.-Ing. · <strong>Year:</strong> 2025 · <strong>ISBN:</strong> 978-3-69030-108-4</p>
+<p>
+<strong>Status:</strong> submitted and defended · <strong>Degree:</strong> Dr.-Ing. · <strong>Year:</strong> 2025 · <strong>ISBN:</strong> 978-3-69030-108-4
+</p>
 <div class="button-row">
 <p><a class="button primary" href="assets/pdfs/recker-dissertation-2025.pdf">Download dissertation PDF</a> <a class="button" href="https://www.kulturkaufhaus.de/en/detail/ISBN-9783690301084/Recker-Tobias/Scaling-of-Cooperative-Mobile-Multi-Robot-Systems-for-Handling-and-Assembly-of-Large-Scale-Components">Book version</a></p>
 </div>
@@ -196,20 +202,40 @@ A scalable CMMRS framework for collaborative object handling and assembly tasks 
 </section>
 <section id="core-contributions" class="level2">
 <h2 class="anchored" data-anchor-id="core-contributions">Core contributions</h2>
-<p>::: {.card-grid two} ::: {.card} ### Scalable CMMRS framework A framework for scaling and adapting cooperative mobile multi-robot systems to changing product and process parameters. :::</p>
-<section id="formation-path-planning-and-control" class="level3 card">
-<h3 class="anchored" data-anchor-id="formation-path-planning-and-control">Formation path planning and control</h3>
-<p>Path planning and control approaches for cooperative object transport with nonholonomic mobile platforms.</p>
-</section>
-<section id="cooperative-object-handling" class="level3 card">
-<h3 class="anchored" data-anchor-id="cooperative-object-handling">Cooperative object handling</h3>
-<p>Control methods for multiple mobile manipulators that jointly grasp and move large-scale components.</p>
-</section>
-<section id="robust-system-integration" class="level3 card">
-<h3 class="anchored" data-anchor-id="robust-system-integration">Robust system integration</h3>
-<p>Design choices that reduce sensitivity to communication latency, localization uncertainty, and hardware-specific features.</p>
-</section>
-<p>:::</p>
+<div class="card-grid two">
+<article class="card">
+<h3 class="anchored">
+Scalable CMMRS framework
+</h3>
+<p>
+A framework for scaling and adapting cooperative mobile multi-robot systems to changing product and process parameters.
+</p>
+</article>
+<article class="card">
+<h3 class="anchored">
+Formation path planning and control
+</h3>
+<p>
+Path planning and control approaches for cooperative object transport with nonholonomic mobile platforms.
+</p>
+</article>
+<article class="card">
+<h3 class="anchored">
+Cooperative object handling
+</h3>
+<p>
+Control methods for multiple mobile manipulators that jointly grasp and move large-scale components.
+</p>
+</article>
+<article class="card">
+<h3 class="anchored">
+Robust system integration
+</h3>
+<p>
+Design choices that reduce sensitivity to communication latency, localization uncertainty, and hardware-specific features.
+</p>
+</article>
+</div>
 </section>
 <section id="application-domains" class="level2">
 <h2 class="anchored" data-anchor-id="application-domains">Application domains</h2>
@@ -243,28 +269,28 @@ A scalable CMMRS framework for collaborative object handling and assembly tasks 
 <section id="related-projects" class="level2">
 <h2 class="anchored" data-anchor-id="related-projects">Related projects</h2>
 <div class="card-grid">
-<div class="project-card">
+<article class="project-card">
 <a class="video-thumb" href="https://www.youtube.com/watch?v=f0-cd06wfmM" target="_blank" rel="noopener"> <img src="assets/images/thumb-object-transport.jpg" alt="Cooperative object transport project thumbnail"> <span class="play-button">▶</span> </a>
 <div class="project-card-body">
 <div class="meta">
 Dissertation demonstrator
 </div>
-<section id="cooperative-object-transport" class="level3">
-<h3 class="anchored" data-anchor-id="cooperative-object-transport">Cooperative object transport</h3>
-</section>
+<h3 class="anchored">
+Cooperative object transport
+</h3>
 </div>
-</div>
-<div class="project-card">
+</article>
+<article class="project-card">
 <a class="video-thumb" href="https://www.youtube.com/watch?v=7jzTUw5pK40" target="_blank" rel="noopener"> <img src="assets/images/thumb-object-handling.jpg" alt="Cooperative object handling project thumbnail"> <span class="play-button">▶</span> </a>
 <div class="project-card-body">
 <div class="meta">
 Dissertation demonstrator
 </div>
-<section id="cooperative-object-handling-1" class="level3">
-<h3 class="anchored" data-anchor-id="cooperative-object-handling-1">Cooperative object handling</h3>
-</section>
+<h3 class="anchored">
+Cooperative object handling
+</h3>
 </div>
-</div>
+</article>
 </div>
 
 
@@ -322,13 +348,14 @@ Dissertation demonstrator
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
