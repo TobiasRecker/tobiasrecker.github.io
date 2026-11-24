@@ -46,7 +46,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Projects\n\n\n\n\nSelected projects that show the system-level focus of my work: cooperative transport, cooperative object handling, and mobile additive manufacturing."
+    "text": "Projects\n\n\n\n\nSelected projects that show the system-level focus of my work: cooperative manipulation, task-level robot programming, cooperative transport, and mobile additive manufacturing."
   },
   {
     "objectID": "projects.html#cooperative-object-handling",
@@ -236,5 +236,12 @@
     "title": "Publications",
     "section": "BibTeX",
     "text": "BibTeX\nA small starter BibTeX file is included in the website repository at assets/data/references.bib."
+  },
+  {
+    "objectID": "projects.html#cooperative-manipulation-and-task-programming",
+    "href": "projects.html#cooperative-manipulation-and-task-programming",
+    "title": "Projects",
+    "section": "Cooperative manipulation and task programming",
+    "text": "Cooperative manipulation and task programming\nThis project explores task-level programming for cooperative multi-arm manipulation. Two UR robots grasp, lift and reorient one common carton while a third traces circles, draws a house and performs six virtual drilling motions on its surfaces.\nThe demonstration combines coordinated object motion with workpiece-relative tool paths and offline trajectory and collision checking. The video visualizes the checked trajectories at 2× speed, with yellow drawing traces and red virtual drilling marks.\nKey aspects\n\nTask-level robot programming\nCoordinated manipulation by two holding arms\nWorkpiece-relative tool paths for a third arm\nOffline trajectory and collision checking\nROS 2 and Gazebo simulation\n\n\nWatch video on YouTube"
   }
 ]

@@ -367,7 +367,30 @@ Use "hardware and system integration" rather than just "Hardwareintegration".
 
 ## Projects
 
-The website should feature three primary projects.
+The Projects page features the current ROS 2/Gazebo task-programming
+demonstrator followed by the three experimental projects below.
+
+### Current work: Cooperative manipulation and task programming
+
+Added on 24 November 2026 at the user's request. Video:
+
+```text
+https://www.youtube.com/watch?v=YHpvsQd1fE8
+```
+
+Project anchor: `projects.html#cooperative-task-programming`.
+Local thumbnail: `assets/images/project-cooperative-task-programming.jpg`.
+It is a native Gazebo/Ogre2 frame from the user's carton demonstration.
+
+Two UR robots hold and reorient one common carton while a third draws
+circles and a house and performs six virtual drilling motions. The video
+shows offline-checked trajectory playback at 2× speed. Yellow traces and
+red marks visualize tool paths, not measured drawing quality or material
+removal. Keep this simulation scope clear and do not infer a real hardware
+demonstration or general autonomous task-learning capability from the video.
+
+Reuse the existing local thumbnail and YouTube link pattern. Keep the
+English project entry in `projects.qmd` and render `docs/` with Quarto 1.9.38.
 
 ### 1. Cooperative object handling
 
